@@ -37,6 +37,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import IntroImage from '../../images/intro_image.jpg'
 
 class Intro extends Component{
     static propTypes = {
@@ -120,7 +121,32 @@ class Intro extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
-                            
+                            <Row style={{marginTop: '35px'}}>
+                                <Col xs="12" sm="9" md="9" className="order-2 order-md-1">
+                                    <h1 style={{textAlign: 'left', fontWeight: 'bold', marginTop: '15px'}}>
+                                        Hello, I'm Michael.
+                                    </h1>
+                                    <p style={{textAlign: 'left', marginTop: '15px'}}>
+                                        I'm a software developer passionate about building intuitive and efficient digital solutions. I craft 
+                                        seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with 
+                                        clean, efficient code. Let's build something amazing!
+                                    </p>
+                                    <br/>
+                                    <div style={{position: 'relative', width: '100%'}}>
+                                        <Button style={{backgroundColor: '#383838', position: 'absolute', left: 0}}>
+                                            Download Resume
+                                        </Button>
+                                    </div>
+                                </Col>
+                                <Col xs="12" sm="3" md="3" className="order-1 order-md-2">
+                                    <img src={IntroImage} 
+                                        style={{
+                                            width: '100%', borderRadius: '10px', marginTop: '15px',
+                                            border: '1px solid #F9C961'
+                                        }}
+                                    />
+                                </Col>
+                            </Row>
                         </Container>
                     </div>
                 }

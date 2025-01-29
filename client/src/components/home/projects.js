@@ -120,7 +120,10 @@ class Projects extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
-                            
+                            <h1 style={{textAlign: 'left', fontWeight: 'bold'}}>
+                                Projects
+                            </h1>
+                            <br/>
                         </Container>
                     </div>
                 }

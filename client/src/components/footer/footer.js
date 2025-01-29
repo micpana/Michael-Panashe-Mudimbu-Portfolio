@@ -34,7 +34,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
-import Logo from '../images/logo.png'
+import Logo from '../../images/logo.png'
 import { FaMailBulk, Whatsapp, FaTelegram, FaPhone, FaSearchLocation, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaWhatsapp, FaLocationArrow, FaPhoneAlt } from 'react-icons/fa';
 
 class Footer extends Component{
@@ -51,7 +51,7 @@ class Footer extends Component{
 
     render() {
         return (
-            <div  style={{minHeight: '250px', backgroundColor: '#EEECEC'}}>
+            <div  style={{minHeight: '50px', backgroundColor: '#EEECEC'}}>
                 
             </div>
         );

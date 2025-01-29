@@ -37,6 +37,11 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import Intro from './intro'
+import Projects from './projects'
+import Services from './services'
+import Tools from './tools'
+import Contact from './contact'
 
 class Home extends Component{
     static propTypes = {
@@ -118,9 +123,13 @@ class Home extends Component{
                     ? <LoadingScreen />
                     : this.state.network_error_screen === true
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
-                    : <div>
+                    : <div style={{minHeight: '450px'}}>
                         <Container>
-                            
+                            <Intro />
+                            <Projects />
+                            <Services />
+                            <Tools />
+                            <Contact />
                         </Container>
                     </div>
                 }

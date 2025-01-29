@@ -1,4 +1,4 @@
-import { Platform_Name } from './platform_name';
+import { Platform_Name } from '../config/platform_name';
 
 // server responded with a unknown non-2xx status code ... to be appended by actual server error message received
 const unknown_non_2xx_message = 'Apologies! The server encountered an error while processing your request. Please try again later or contact our team for further assistance if the problem persists.'

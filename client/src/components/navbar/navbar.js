@@ -37,7 +37,8 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
-import Logo from '../images/logo.png'
+import Logo from '../../images/logo.png'
+import { FaMoon, FaSun } from 'react-icons/fa';
 
 class NavBar extends Component{
     static propTypes = {
@@ -50,7 +51,7 @@ class NavBar extends Component{
             dropdownOpen: false,
             on_mobile: false,
             loading: false,
-            user_details: null
+            dark_mode_on: false
         };    
         
         this.HandleChange = (e) =>{
@@ -100,14 +101,17 @@ class NavBar extends Component{
 
         return (
             <Navbar light expand="md" sticky='top' style={{backgroundColor: '#EEECEC', borderBottom: '1px solid #F9C961'}}>
-                <NavbarBrand href="/" style={{marginBottom: '0px', height: '70px', width: '150px', marginLeft: '10px'}}>
-                    <img src={Logo} style={{width: '100%'}} /> 
+                <NavbarBrand href="/" style={{marginBottom: '0px', height: '70px', marginLeft: '10px'}}>
+                    {/* <img src={Logo} style={{width: '100%'}} />  */}
+                    <div style={{fontWeight: 'bold', marginTop: 15}}>
+                        MPM
+                    </div>
                 </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} style={{backgroundColor: '#EEECEC'}}/>
-                <Collapse isOpen={this.state.isOpen} navbar style={{position: 'relative'}}>
-                    <Nav className="ml-auto" navbar style={{position: 'absolute', right: 0, backgroundColor: '#EEECEC'}}>
+                <Collapse isOpen={this.state.isOpen} navbar>
+                    <Nav className="ml-auto" navbar style={{marginRight: 'auto', marginLeft: 'auto', backgroundColor: '#EEECEC'}}>
                         <NavItem>
-                            <NavLink href='/' style={{color: '#005fc9', fontWeight: 'bold', fontSize: '15px'}}>
+                            <NavLink href='/' style={{}}>
                                 Home
                             </NavLink>
                         </NavItem>
@@ -115,7 +119,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/projects' style={{color: '#005fc9', fontWeight: 'bold', fontSize: '15px'}}>
+                            <NavLink href='/projects' style={{}}>
                                 Projects
                             </NavLink>
                         </NavItem>
@@ -123,7 +127,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/services' style={{color: '#005fc9', fontWeight: 'bold', fontSize: '15px'}}>
+                            <NavLink href='/services' style={{}}>
                                 Services
                             </NavLink>
                         </NavItem>
@@ -131,7 +135,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/tools' style={{color: '#005fc9', fontWeight: 'bold', fontSize: '15px'}}>
+                            <NavLink href='/tools' style={{}}>
                                 Tools
                             </NavLink>
                         </NavItem>
@@ -139,7 +143,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/contact' style={{color: '#005fc9', fontWeight: 'bold', fontSize: '15px'}}>
+                            <NavLink href='/contact' style={{}}>
                                 Contact
                             </NavLink>
                         </NavItem>
@@ -147,6 +151,13 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                     </Nav>
+                    <div style={{marginLeft: '10px', marginRight: '10px'}}>
+                        {
+                            this.state.dark_mode_on === true
+                            ? <FaSun color='gold'/>
+                            : <FaMoon color='black'/>
+                        }
+                    </div>
                 </Collapse>
             </Navbar>
         );
