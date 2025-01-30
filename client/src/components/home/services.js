@@ -120,7 +120,18 @@ class Services extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
-                            
+                            <h1 style={{textAlign: 'left', fontWeight: 'bold'}}>
+                                Services
+                            </h1>
+                            <br/>
+
+                            <h6 style={{
+                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
+                                }} 
+                                onClick={() => window.location.href = './projects/'}
+                            >
+                                All services
+                            </h6>
                         </Container>
                     </div>
                 }

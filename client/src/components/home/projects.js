@@ -128,11 +128,18 @@ class Projects extends Component{
                             <br/>
                             <Row>
                                 {
-                                    ProjectsData.slice().reverse().slice(0, 3).map((item, index) => (
+                                    ProjectsData.slice(0, 3).map((item, index) => (
                                         <ProjectTile index={index} project={item} />
                                     ))
                                 }
                             </Row>
+                            <h6 style={{
+                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
+                                }} 
+                                onClick={() => window.location.href = './projects/'}
+                            >
+                                All projects
+                            </h6>
                         </Container>
                     </div>
                 }
