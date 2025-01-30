@@ -37,6 +37,8 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { ProjectsData } from '../../data/projects_data';
+import ProjectTile from '../projects/project_tile';
 
 class Projects extends Component{
     static propTypes = {
@@ -124,6 +126,13 @@ class Projects extends Component{
                                 Projects
                             </h1>
                             <br/>
+                            <Row>
+                                {
+                                    ProjectsData.slice().reverse().slice(0, 3).map((item, index) => (
+                                        <ProjectTile index={index} project={item} />
+                                    ))
+                                }
+                            </Row>
                         </Container>
                     </div>
                 }

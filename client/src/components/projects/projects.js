@@ -37,6 +37,8 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { ProjectsData } from '../../data/projects_data';
+import ProjectTile from './project_tile';
 
 class Projects extends Component{
     static propTypes = {
@@ -120,7 +122,13 @@ class Projects extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
-                            
+                            <Row>
+                                {
+                                    ProjectsData.map((item, index) => (
+                                        <ProjectTile index={index} project={item} />
+                                    ))
+                                }
+                            </Row>
                         </Container>
                     </div>
                 }
