@@ -8,7 +8,7 @@ import {
 
 const ProjectTile = ({ index, project }) => { 
 
-    return <Col xs='12' sm='4' key={index}>
+    return <Col xs='12' sm='4' key={index} style={{marginBottom: '30px'}}>
         <Container>
             <div style={{position: 'relative', overflow: 'hidden', width: '100%', height: '160px', backgroundColor: 'inherit', borderTopLeftRadius: '10px', borderTopRightRadius: '10px'}}>
                 <div style={{position: 'absolute', top: '170px', left: 0, right: 0}}>
@@ -40,7 +40,7 @@ const ProjectTile = ({ index, project }) => {
             <h6 style={{textAlign: 'left', marginTop: '10px'}}>
                 {project.technologies}
             </h6>
-            <h6 style={{textAlign: 'right', cursor: 'pointer', textDecorationLine: 'underline'}} 
+            <h6 style={{textAlign: 'right', cursor: 'pointer', textDecorationLine: 'underline', fontWeight: 500}} 
                 onClick={() => window.location.href = './projects/' + project.title}
             >
                 Read more

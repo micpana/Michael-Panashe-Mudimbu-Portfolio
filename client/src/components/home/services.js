@@ -124,7 +124,14 @@ class Services extends Component{
                                 Services
                             </h1>
                             <br/>
+                            <Row>
+                                <Col sm='4'>
+                                    <Container>
 
+                                    </Container>
+                                </Col>
+                            </Row>
+                            
                             <h6 style={{
                                     textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
                                 }} 
