@@ -37,6 +37,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { FaBrain, FaCode, FaGlobe, FaRobot, FaTablet } from 'react-icons/fa';
 
 class Services extends Component{
     static propTypes = {
@@ -126,16 +127,125 @@ class Services extends Component{
                             <br/>
                             <Row>
                                 <Col sm='4'>
-                                    <Container>
-
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaGlobe size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                Web Development
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#Web Development'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='4'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaTablet size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                Mobile Development
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#Mobile Development'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='4'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaBrain size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                AI Systems Development
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#AI Systems Development'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='4'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaRobot size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                WhatsApp Chatbots
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#WhatsApp Chatbots'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='4'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaCode size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                Custom Software Solutions
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#Custom Software Solutions'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
                                     </Container>
                                 </Col>
                             </Row>
-                            
                             <h6 style={{
                                     textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
                                 }} 
-                                onClick={() => window.location.href = './projects/'}
+                                onClick={() => window.location.href = './services/'}
                             >
                                 All services
                             </h6>

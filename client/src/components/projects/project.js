@@ -37,8 +37,10 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { ProjectsData } from '../../data/projects_data';
+import { FaChevronLeft, FaChevronRight, FaLink } from 'react-icons/fa';
 
-class Services extends Component{
+class Projects extends Component{
     static propTypes = {
         cookies: instanceOf(Cookies).isRequired
     };
@@ -50,7 +52,10 @@ class Services extends Component{
             network_error_message: '',
             retry_function: null,
             input_errors: {},
-            on_mobile: false
+            on_mobile: false,
+            slide_autoplay: true,
+            current_image_index: 0,
+            project: {images: []}
         };
 
         this.HandleChange = (e) => {
@@ -95,6 +100,26 @@ class Services extends Component{
         this.NetworkErrorScreenOff = () => {
             this.setState({network_error_screen: false, network_error_message: '', retry_function: null})
         }
+
+        this.NextSlide = () => {
+            const { project, current_image_index } = this.state;
+            this.setState({
+                current_image_index: (current_image_index + 1) % project.images.length,
+            });
+        };
+        
+        this.PrevSlide = () => {
+            const { project, current_image_index } = this.state;
+            this.setState({
+                current_image_index: current_image_index === 0 ? project.images.length - 1 : current_image_index - 1,
+            });
+        };
+
+        this.AutoSlide = () => {
+            if (this.state.slide_autoplay == true){
+                this.NextSlide()
+            }
+        }
     }
 
     componentDidMount() {
@@ -103,13 +128,29 @@ class Services extends Component{
                 on_mobile: true
             })
         }
+
+        const path = window.location.pathname.split('/')
+        const project_title = decodeURIComponent(path[path.length -1])
+
+        const findItemByTitle = (array, title) => array.find(item => item.title === title);
+        const project_data = findItemByTitle(ProjectsData, project_title)
+        
+        this.setState({project: project_data})
+
+        // auto slide every n milliseconds
+        // setInterval(this.AutoSlide, 5000);
     }
 
     render() {
+        const path = window.location.pathname.split('/')
+        const project_title = decodeURIComponent(path[path.length -1])
+
+        var project = this.state.project
+
         return (
             <div>
                 <Helmet>
-                    <title>Services | {Platform_Name}</title>
+                    <title>{project_title} | {Platform_Name}</title>
                     {/* <meta name="description" content="" /> */}
                 </Helmet>
                 <ToastContainer />
@@ -122,10 +163,45 @@ class Services extends Component{
                         <Container>
                             <br/><br/>
                             <h1 style={{fontWeight: 'bold'}}>
-                                Services
+                                {project.title}
                             </h1>
                             <br/><br/><br/>
-
+                            <Container>
+                                <div style={{height: '340px', overflow: 'hidden', position: 'relative', backgroundColor: '#FFFFFF'}}
+                                    onMouseOver={() => this.setState({slide_autoplay: false})} 
+                                    onMouseLeave={() => this.setState({slide_autoplay: true})}
+                                >
+                                    <div style={{
+                                        width: '100%', height: '100%', backgroundImage: `url(${project.images[this.state.current_image_index]})`, 
+                                        backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}
+                                    ></div>
+                                    <FaChevronLeft onClick={this.PrevSlide} style={{position: 'absolute', left: 20, top: 150, cursor: 'pointer'}} />
+                                    <FaChevronRight onClick={this.NextSlide} style={{position: 'absolute', right: 20, top: 150, cursor: 'pointer'}} />
+                                </div>
+                                <p style={{textAlign: 'left', marginTop: '50px', fontWeight: 300}}>
+                                    {project.description}
+                                </p>
+                                <p style={{textAlign: 'left', marginTop: '30px'}}>
+                                    {project.technologies}
+                                </p>
+                                <Row style={{marginTop: '30px', textAlign: 'left'}}>
+                                    <Col sm='4'>
+                                        <FaLink /> Main Url:
+                                        <br/>
+                                        {project.main_url}
+                                        <br/><br/>
+                                    </Col>
+                                    <Col sm='4'>
+                                        
+                                    </Col>
+                                    <Col sm='4'>
+                                        <FaLink /> Backup Url:
+                                        <br/>
+                                        {project.backup_url}
+                                        <br/><br/>
+                                    </Col>
+                                </Row>
+                            </Container>
                         </Container>
                     </div>
                 }
@@ -136,4 +212,4 @@ class Services extends Component{
 
 };
 
-export default withCookies(Services);
+export default withCookies(Projects);

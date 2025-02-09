@@ -31,11 +31,11 @@ import InputErrors from '../../tools/input_errors';
 import NetworkErrorScreen from '../../tools/network_error_screen';
 import { IsEmailStructureValid, IsPasswordStructureValid } from '../../tools/input_syntax_checks'
 import {  } from '../../config/credentials'
-import { LinkedIn, X } from '../../config/social_links'
+import { Github, LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
 import Logo from '../../images/logo.png'
-import { FaMailBulk, Whatsapp, FaTelegram, FaPhone, FaSearchLocation, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaWhatsapp, FaLocationArrow, FaPhoneAlt } from 'react-icons/fa';
+import { FaMailBulk, Whatsapp, FaTelegram, FaPhone, FaSearchLocation, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaWhatsapp, FaLocationArrow, FaPhoneAlt, FaGithub, FaLink } from 'react-icons/fa';
 
 class Footer extends Component{
     constructor(props) { 
@@ -52,7 +52,25 @@ class Footer extends Component{
     render() {
         return (
             <div  style={{minHeight: '50px', backgroundColor: '#EEECEC'}}>
-                
+                <Container>
+                    <Row>
+                        <Col sm='8'>
+                            <div style={{fontSize: '14px', fontWeight: 300, paddingTop: '10px'}}>
+                                &copy; 2025 {Platform_Name}
+                            </div>
+                        </Col>
+                        <Col sm='4'>
+                            <div style={{paddingTop: '10px'}}>
+                                <a href={LinkedIn} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                    <FaLinkedin size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
+                                </a>
+                                <a href={Github} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                    <FaGithub size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
+                                </a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         );
     }

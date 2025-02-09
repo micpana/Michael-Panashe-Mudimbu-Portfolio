@@ -30,17 +30,17 @@ const ProjectTile = ({ index, project }) => {
             }
             {
                 project.description.length <= 130
-                ? <p style={{textAlign: 'left'}}>
+                ? <p style={{textAlign: 'left', fontWeight: 200}}>
                     {project.description}
                 </p>
-                : <p style={{textAlign: 'left'}}>
+                : <p style={{textAlign: 'left', fontWeight: 200}}>
                     {project.description.substring(0, 130)}...
                 </p>
             }
-            <h6 style={{textAlign: 'left', marginTop: '10px'}}>
+            <h6 style={{textAlign: 'left', marginTop: '10px', fontWeight: 350}}>
                 {project.technologies}
             </h6>
-            <h6 style={{textAlign: 'right', cursor: 'pointer', textDecorationLine: 'underline', fontWeight: 500}} 
+            <h6 style={{textAlign: 'right', cursor: 'pointer', fontWeight: 500}} 
                 onClick={() => window.location.href = './projects/' + project.title}
             >
                 Read more

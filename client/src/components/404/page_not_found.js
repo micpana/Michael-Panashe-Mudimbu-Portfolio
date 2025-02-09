@@ -119,7 +119,7 @@ class PageNotFound extends Component{
                     ? <LoadingScreen />
                     : this.state.network_error_screen === true
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
-                    : <Container>
+                    : <Container style={{minHeight: '500px'}}>
                         <br/>
                         <h1 style={{marginTop: '120px', fontWeight: 'bold'}}>
                           404 - Page Not Found

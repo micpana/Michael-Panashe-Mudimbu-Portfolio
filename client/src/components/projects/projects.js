@@ -122,6 +122,11 @@ class Projects extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
+                            <br/><br/>
+                            <h1 style={{fontWeight: 'bold'}}>
+                                Projects
+                            </h1>
+                            <br/><br/><br/>
                             <Row>
                                 {
                                     ProjectsData.map((item, index) => (

@@ -37,6 +37,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { FaDatabase, FaDocker, FaEthereum, FaGit, FaGitAlt, FaPython, FaReact, FaReacteurope } from 'react-icons/fa';
 
 class Tools extends Component{
     static propTypes = {
@@ -124,11 +125,117 @@ class Tools extends Component{
                                 Tools
                             </h1>
                             <br/>
-
+                            <Row>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaReact size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                ReactJS
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaReacteurope size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                React Native
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaPython size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                Python
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaEthereum size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                Solidity
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaDatabase size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                MongoDB
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                            <FaGitAlt size='30px' />
+                                            {' '}
+                                            <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                Git
+                                            </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='3'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '10px'}}>
+                                                <FaDocker size='30px' />
+                                                {' '}
+                                                <span style={{fontSize: '18px', marginLeft: '5px'}}>
+                                                    Docker
+                                                </span>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                            </Row>
                             <h6 style={{
                                     textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
                                 }} 
-                                onClick={() => window.location.href = './projects/'}
+                                onClick={() => window.location.href = './tools'}
                             >
                                 More details
                             </h6>

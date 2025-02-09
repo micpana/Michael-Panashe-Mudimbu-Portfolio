@@ -120,6 +120,11 @@ class Tools extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
+                            <br/><br/>
+                            <h1 style={{fontWeight: 'bold'}}>
+                                Tools
+                            </h1>
+                            <br/><br/><br/>
                             
                         </Container>
                     </div>

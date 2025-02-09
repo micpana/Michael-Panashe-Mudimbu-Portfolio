@@ -37,6 +37,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
+import { FaAt, FaEnvelope, FaEnvelopeOpenText, FaLinkedin, FaTwitter, FaUserAlt } from 'react-icons/fa';
 
 class Contact extends Component{
     static propTypes = {
@@ -50,7 +51,10 @@ class Contact extends Component{
             network_error_message: '',
             retry_function: null,
             input_errors: {},
-            on_mobile: false
+            on_mobile: false,
+            name: '',
+            email: '',
+            message: ''
         };
 
         this.HandleChange = (e) => {
@@ -95,6 +99,32 @@ class Contact extends Component{
         this.NetworkErrorScreenOff = () => {
             this.setState({network_error_screen: false, network_error_message: '', retry_function: null})
         }
+
+        this.Contact = (e) => {
+            e.preventDefault()
+            
+            // initialize variable to store input validation status
+            var data_checks_out = true
+
+            // clear existing input errors if any
+            this.ClearInputErrors()
+
+            // validate input data
+            if (this.state.name === ''){ this.SetInputError('name', 'required'); data_checks_out = false }
+            if (this.state.email === ''){ this.SetInputError('email', 'required'); data_checks_out = false }
+            if (IsEmailStructureValid(this.state.email) === false){ this.SetInputError('email', 'invalid'); data_checks_out = false }
+            if (this.state.message === ''){ this.SetInputError('message', 'required'); data_checks_out = false }
+
+            // check data collection status
+            if (data_checks_out === false){ // user needs to check their input data
+                Notification('Check input fields for errors.', 'error')
+            }else{ // send data to server
+                this.LoadingOn()
+
+                // loading off
+                this.LoadingOff()
+            }
+        }
     }
 
     componentDidMount() {
@@ -120,7 +150,82 @@ class Contact extends Component{
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
                     : <div>
                         <Container>
-                            
+                            <h1 style={{textAlign: 'left', fontWeight: 'bold'}}>
+                                Contact Me
+                            </h1>
+                            <br/>
+                            <Row style={{textAlign: 'left'}}>
+                                <Col sm='6'>
+                                    <Row style={{marginTop: '20px'}}>
+                                        <Col sm='1'>
+                                            <FaEnvelope size='20px' /> 
+                                        </Col>
+                                        <Col sm='1'>
+                                            <a href="mailto:michaelmudimbu@gmail.com" style={{color: 'inherit', textDecorationLine: 'none'}}>
+                                                {' '}michaelmudimbu@gmail.com
+                                            </a>
+                                        </Col>
+                                    </Row>
+                                    <Row style={{marginTop: '50px'}}>
+                                        <Col xs='1' sm='1'>
+                                            <a href={LinkedIn} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                                <FaLinkedin size='20px' /> 
+                                            </a>
+                                        </Col>
+                                        <Col xs='1' sm='1'>
+                                            <a href={X} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                                <FaTwitter size='20px' /> 
+                                            </a>
+                                        </Col>
+                                    </Row>
+                                    <br/><br/>
+                                </Col>
+                                <Col sm='6'>
+                                    <Form onSubmit={this.Contact}>
+                                        <Label style={{fontWeight: 'bold'}}>Name <span style={{color: 'red'}}>*</span></Label>
+                                        <InputGroup>
+                                            <InputGroupText>
+                                                <FaUserAlt style={{margin:'10px'}}/>
+                                            </InputGroupText>
+                                            <Input style={{backgroundColor: 'inherit'}}
+                                                placeholder="Your name" name="name" id="name"
+                                                value={this.state.name} onChange={this.HandleChange} type="text" 
+                                            />
+                                        </InputGroup>
+                                        <InputErrors field_error_state={this.state.input_errors['name']} field_label='Name' />
+                                        <br/>
+                                        <Label style={{fontWeight: 'bold'}}>Email <span style={{color: 'red'}}>*</span></Label>
+                                        <InputGroup>
+                                            <InputGroupText>
+                                                <FaAt style={{margin:'10px'}}/>
+                                            </InputGroupText>
+                                            <Input style={{backgroundColor: 'inherit'}}
+                                                placeholder="Your email" name="email" id="email"
+                                                value={this.state.email} onChange={this.HandleChange} type="text" 
+                                            />
+                                        </InputGroup>
+                                        <InputErrors field_error_state={this.state.input_errors['email']} field_label='Email' />
+                                        <br/>
+                                        <Label style={{fontWeight: 'bold'}}>Message <span style={{color: 'red'}}>*</span></Label>
+                                        <InputGroup>
+                                            <InputGroupText>
+                                                <FaEnvelopeOpenText style={{margin:'10px'}}/>
+                                            </InputGroupText>
+                                            <Input style={{backgroundColor: 'inherit'}}
+                                                placeholder="Your message" name="message" id="message"
+                                                value={this.state.message} onChange={this.HandleChange} type="textarea" rows={5}
+                                            />
+                                        </InputGroup>
+                                        <InputErrors field_error_state={this.state.input_errors['message']} field_label='Message' />
+                                        <br/><br/>
+                                        <Button type="submit"
+                                            style={{backgroundColor: '#ffffff', color: '#383838', fontWeight: 'bold', border: '1px solid #383838', borderRadius: '20px', width: '180px'}}
+                                        >
+                                            Submit
+                                        </Button>
+                                    </Form>
+                                </Col>
+                            </Row>
                         </Container>
                     </div>
                 }
