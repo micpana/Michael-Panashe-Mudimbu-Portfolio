@@ -178,7 +178,10 @@ class Projects extends Component{
                                     <FaChevronLeft onClick={this.PrevSlide} style={{position: 'absolute', left: 20, top: 150, cursor: 'pointer'}} />
                                     <FaChevronRight onClick={this.NextSlide} style={{position: 'absolute', right: 20, top: 150, cursor: 'pointer'}} />
                                 </div>
-                                <p style={{textAlign: 'left', marginTop: '50px', fontWeight: 300}}>
+                                <p style={{marginTop: '10px', fontWeight: 200}}>
+                                    Image {this.state.current_image_index+1} of {this.state.project.images.length}
+                                </p>
+                                <p style={{textAlign: 'left', marginTop: '30px', fontWeight: 300}}>
                                     {project.description}
                                 </p>
                                 <p style={{textAlign: 'left', marginTop: '30px'}}>
@@ -188,7 +191,9 @@ class Projects extends Component{
                                     <Col sm='4'>
                                         <FaLink /> Main Url:
                                         <br/>
-                                        {project.main_url}
+                                        <a href={project.main_url} style={{color: 'inherit', textDecoration: 'none'}}>
+                                            {project.main_url}
+                                        </a>
                                         <br/><br/>
                                     </Col>
                                     <Col sm='4'>
@@ -197,7 +202,9 @@ class Projects extends Component{
                                     <Col sm='4'>
                                         <FaLink /> Backup Url:
                                         <br/>
-                                        {project.backup_url}
+                                        <a href={project.backup_url} style={{color: 'inherit', textDecoration: 'none'}}>
+                                            {project.backup_url}
+                                        </a>
                                         <br/><br/>
                                     </Col>
                                 </Row>

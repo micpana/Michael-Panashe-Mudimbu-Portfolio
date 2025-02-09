@@ -1,5 +1,6 @@
 // Ocula Finance **************************************************************
 import OculaFinanceImage1 from '../images/projects/Ocula Finance/1.PNG'
+import OculaFinanceImage2 from '../images/projects/Ocula Finance/2.PNG'
 // ****************************************************************************
 
 // list of projects done and their attributes
@@ -11,7 +12,7 @@ export const ProjectsData = [
         `,
         main_url: 'https://oculafinance.com',
         backup_url: 'https://oculafinance.netlify.app',
-        images: [OculaFinanceImage1],
+        images: [OculaFinanceImage1, OculaFinanceImage2],
         technologies: 'ReactJs, Python, MongoDB'
     },
     {
@@ -21,7 +22,7 @@ export const ProjectsData = [
         `,
         main_url: 'https://oculafinance.com',
         backup_url: 'https://oculafinance.netlify.app',
-        images: [OculaFinanceImage1],
+        images: [OculaFinanceImage1, OculaFinanceImage2],
         technologies: 'ReactJs, Python, MongoDB'
     },
     {
@@ -31,7 +32,7 @@ export const ProjectsData = [
         `,
         main_url: 'https://oculafinance.com',
         backup_url: 'https://oculafinance.netlify.app',
-        images: [OculaFinanceImage1],
+        images: [OculaFinanceImage1, OculaFinanceImage2],
         technologies: 'ReactJs, Python, MongoDB'
     },
     {
@@ -41,7 +42,7 @@ export const ProjectsData = [
         `,
         main_url: 'https://oculafinance.com',
         backup_url: 'https://oculafinance.netlify.app',
-        images: [OculaFinanceImage1],
+        images: [OculaFinanceImage1, OculaFinanceImage2],
         technologies: 'ReactJs, Python, MongoDB'
     },
     {
@@ -51,7 +52,7 @@ export const ProjectsData = [
         `,
         main_url: 'https://oculafinance.com',
         backup_url: 'https://oculafinance.netlify.app',
-        images: [OculaFinanceImage1],
+        images: [OculaFinanceImage1, OculaFinanceImage2],
         technologies: 'ReactJs, Python, MongoDB'
     }
 ]
