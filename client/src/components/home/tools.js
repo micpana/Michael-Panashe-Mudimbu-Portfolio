@@ -119,7 +119,7 @@ class Tools extends Component{
                     ? <LoadingScreen />
                     : this.state.network_error_screen === true
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
-                    : <div>
+                    : <div id='Tools'>
                         <Container>
                             <h1 style={{textAlign: 'left', fontWeight: 'bold'}}>
                                 Tools
@@ -232,13 +232,6 @@ class Tools extends Component{
                                     </Container>
                                 </Col>
                             </Row>
-                            <h6 style={{
-                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
-                                }} 
-                                onClick={() => window.location.href = './tools'}
-                            >
-                                More details
-                            </h6>
                         </Container>
                     </div>
                 }

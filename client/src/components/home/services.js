@@ -138,8 +138,7 @@ class Services extends Component{
                                                 Web Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Web Development'}
@@ -161,8 +160,7 @@ class Services extends Component{
                                                 Mobile Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Mobile Development'}
@@ -184,8 +182,7 @@ class Services extends Component{
                                                 AI Systems Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#AI Systems Development'}
@@ -207,8 +204,7 @@ class Services extends Component{
                                                 WhatsApp Chatbots
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#WhatsApp Chatbots'}
@@ -230,8 +226,7 @@ class Services extends Component{
                                                 Telegram Bots
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Telegram Bots'}
@@ -253,8 +248,7 @@ class Services extends Component{
                                                 Custom Software Solutions
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                Testing testing testing testing testing testing testing testing testing testing testing 
-                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                                
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Custom Software Solutions'}

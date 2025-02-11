@@ -50,7 +50,7 @@ const ProjectTile = ({ index, project }) => {
                 {project.technologies}
             </h6>
             <h6 style={{textAlign: 'right', cursor: 'pointer', fontWeight: 500}} 
-                onClick={() => window.location.href = './projects/' + project.title}
+                onClick={() => window.location.href = '/projects/' + project.title}
             >
                 Read more
             </h6>

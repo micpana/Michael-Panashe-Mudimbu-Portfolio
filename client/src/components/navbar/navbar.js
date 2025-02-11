@@ -135,7 +135,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/tools' style={{}}>
+                            <NavLink href='/#Tools' style={{}}>
                                 Tools
                             </NavLink>
                         </NavItem>
