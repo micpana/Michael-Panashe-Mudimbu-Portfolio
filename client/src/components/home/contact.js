@@ -148,7 +148,7 @@ class Contact extends Component{
                     ? <LoadingScreen />
                     : this.state.network_error_screen === true
                     ? <NetworkErrorScreen error_message={this.state.network_error_message} retryFunction={this.state.retry_function} />
-                    : <div>
+                    : <div id='Contact'>
                         <Container>
                             <h1 style={{textAlign: 'left', fontWeight: 'bold'}}>
                                 Contact Me

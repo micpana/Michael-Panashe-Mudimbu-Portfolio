@@ -143,7 +143,7 @@ class NavBar extends Component{
                             <NavLink></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href='/contact' style={{}}>
+                            <NavLink href='/#Contact' style={{}}>
                                 Contact
                             </NavLink>
                         </NavItem>

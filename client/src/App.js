@@ -23,7 +23,6 @@ import Projects from './components/projects/projects'
 import Project from './components/projects/project';
 import Services from './components/services/services'
 import Tools from './components/tools/tools'
-import Contact from './components/contact/contact'
 
 class App extends Component {
     static propTypes = {
@@ -51,7 +50,6 @@ class App extends Component {
                     <Route path='/projects/:project_title' element={<Project />}/>
                     <Route path='/services' element={<Services />}/>
                     <Route path='/tools' element={<Tools />}/>
-                    <Route path='/contact' element={<Contact />}/>
                     <Route path="*" element={<PageNotFound />} />
                 </Routes>
                 <Footer />

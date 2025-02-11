@@ -37,7 +37,7 @@ import {  } from '../../config/credentials'
 import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
-import { FaBrain, FaCode, FaGlobe, FaRobot, FaTablet } from 'react-icons/fa';
+import { FaBrain, FaCode, FaGlobe, FaRobot, FaTablet, FaTelegram, FaWhatsapp } from 'react-icons/fa';
 
 class Services extends Component{
     static propTypes = {
@@ -202,7 +202,7 @@ class Services extends Component{
                                         }}
                                     >
                                         <Container style={{textAlign: 'left', paddingTop: '40px'}}>
-                                            <FaRobot size='40px' />
+                                            <FaWhatsapp size='40px' />
                                             <h4 style={{marginTop: '30px'}}>
                                                 WhatsApp Chatbots
                                             </h4>
@@ -212,6 +212,29 @@ class Services extends Component{
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#WhatsApp Chatbots'}
+                                            >
+                                                Learn more
+                                            </h6>
+                                        </Container>
+                                    </Container>
+                                </Col>
+                                <Col sm='4'>
+                                    <Container style={{
+                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            color: '#ffffff'
+                                        }}
+                                    >
+                                        <Container style={{textAlign: 'left', paddingTop: '40px'}}>
+                                            <FaTelegram size='40px' />
+                                            <h4 style={{marginTop: '30px'}}>
+                                                Telegram Bots
+                                            </h4>
+                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                                Testing testing testing testing testing testing testing testing testing testing testing 
+                                                testing testing testing testing testing testing testing testing testing testing testing.
+                                            </p>
+                                            <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
+                                                onClick={() => window.location.href = './services/#Telegram Bots'}
                                             >
                                                 Learn more
                                             </h6>
