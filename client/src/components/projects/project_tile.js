@@ -29,6 +29,15 @@ const ProjectTile = ({ index, project }) => {
                 </h6>
             }
             {
+                project.category.length <= 35
+                ? <h6 style={{fontWeight: 400, textAlign: 'left', marginTop: '10px', fontSize: '12px'}}>
+                    {project.category}
+                </h6>
+                : <h6 style={{fontWeight: 400, textAlign: 'left', marginTop: '10px', fontSize: '12px'}}>
+                    {project.category.substring(0, 35)}...
+                </h6>
+            }
+            {
                 project.description.length <= 130
                 ? <p style={{textAlign: 'left', fontWeight: 200}}>
                     {project.description}

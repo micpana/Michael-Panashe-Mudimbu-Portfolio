@@ -181,6 +181,9 @@ class Projects extends Component{
                                 <p style={{marginTop: '10px', fontWeight: 200}}>
                                     Image {this.state.current_image_index+1} of {this.state.project.images.length}
                                 </p>
+                                <h6 style={{fontWeight: 400, textAlign: 'left', marginTop: '10px', fontSize: '12px'}}>
+                                    {project.category}
+                                </h6>
                                 <p style={{textAlign: 'left', marginTop: '30px', fontWeight: 300}}>
                                     {project.description}
                                 </p>

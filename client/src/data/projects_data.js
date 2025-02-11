@@ -7,6 +7,7 @@ import OculaFinanceImage2 from '../images/projects/Ocula Finance/2.PNG'
 export const ProjectsData = [
     {
         title: 'Ocula Finance',
+        category: 'Web App',
         description: `
             I'm a software developer passionate about building intuitive and efficient digital solutions. I craft seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with clean, efficient code. Let's build something amazing!
         `,
@@ -17,6 +18,7 @@ export const ProjectsData = [
     },
     {
         title: 'Ocula Finance',
+        category: 'Web App',
         description: `
             I'm a software developer passionate about building intuitive and efficient digital solutions. I craft seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with clean, efficient code. Let's build something amazing!
         `,
@@ -27,6 +29,7 @@ export const ProjectsData = [
     },
     {
         title: 'Ocula Finance',
+        category: 'Web App',
         description: `
             I'm a software developer passionate about building intuitive and efficient digital solutions. I craft seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with clean, efficient code. Let's build something amazing!
         `,
@@ -37,6 +40,7 @@ export const ProjectsData = [
     },
     {
         title: 'Ocula Finance',
+        category: 'Web App',
         description: `
             I'm a software developer passionate about building intuitive and efficient digital solutions. I craft seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with clean, efficient code. Let's build something amazing!
         `,
@@ -47,6 +51,7 @@ export const ProjectsData = [
     },
     {
         title: 'Ocula Finance',
+        category: 'Web App',
         description: `
             I'm a software developer passionate about building intuitive and efficient digital solutions. I craft seamless web and mobile experiences, from backend logic to frontend finesse, bringing ideas to life with clean, efficient code. Let's build something amazing!
         `,
