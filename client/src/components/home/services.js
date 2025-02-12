@@ -138,14 +138,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 Web Development
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['Web Development'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['Web Development'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['Web Development'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['Web Development'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['Web Development'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>
@@ -168,14 +168,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 Mobile Development
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['Mobile Development'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['Mobile Development'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['Mobile Development'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['Mobile Development'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['Mobile Development'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>
@@ -198,14 +198,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 AI Systems Development
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['AI Systems Development'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['AI Systems Development'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['AI Systems Development'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['AI Systems Development'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['AI Systems Development'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>
@@ -228,14 +228,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 WhatsApp Chatbots
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['WhatsApp Chatbots'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['WhatsApp Chatbots'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['WhatsApp Chatbots'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['WhatsApp Chatbots'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['WhatsApp Chatbots'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>
@@ -258,14 +258,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 Telegram Bots
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['Telegram Bots'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['Telegram Bots'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['Telegram Bots'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['Telegram Bots'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['Telegram Bots'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>
@@ -288,14 +288,14 @@ class Services extends Component{
                                             <h4 style={{marginTop: '30px'}}>
                                                 Custom Software Solutions
                                             </h4>
-                                            <p style={{fontSize: '13px', marginTop: '20px'}}>
+                                            <p style={{fontSize: '14px', marginTop: '20px'}}>
                                                 {
-                                                    ServicesData['Custom Software Solutions'].length <= 130
-                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                    ServicesData['Custom Software Solutions'].length <= 140
+                                                    ? <p style={{textAlign: 'left', fontWeight: 400}}>
                                                         {ServicesData['Custom Software Solutions'].details}
                                                     </p>
-                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
-                                                        {ServicesData['Custom Software Solutions'].details.substring(0, 130)}...
+                                                    : <p style={{textAlign: 'left', fontWeight: 400}}>
+                                                        {ServicesData['Custom Software Solutions'].details.substring(0, 140)}...
                                                     </p>
                                                 }
                                             </p>

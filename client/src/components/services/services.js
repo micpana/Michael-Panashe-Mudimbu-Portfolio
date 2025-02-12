@@ -123,112 +123,114 @@ class Services extends Component{
                     : <div>
                         <Container>
                             <br/><br/>
-                            <h1 style={{fontWeight: 'bold'}}>
+                            <h3 style={{fontWeight: 'bold'}}>
                                 Services
-                            </h1>
+                            </h3>
                             <br/><br/><br/>
-                            <Row id='Web Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaGlobe size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            Web Development
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['Web Development'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
-                            <Row id='Mobile Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaTablet size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            Mobile Development
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['Mobile Development'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
-                            <Row id='AI Systems Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaBrain size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            AI Systems Development
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['AI Systems Development'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
-                            <Row id='WhatsApp Chatbots' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaWhatsapp size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            WhatsApp Chatbots
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['WhatsApp Chatbots'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
-                            <Row id='Telegram Bots' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaTelegram size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            Telegram Bots
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['Telegram Bots'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
-                            <Row id='Custom Software Solutions' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px'}}>
-                                <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <FaCode size='40px' />
-                                        <h4 style={{marginTop: '30px'}}>
-                                            Custom Software Solutions
-                                        </h4>
-                                    </Container>
-                                </Col>
-                                <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
-                                    <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
-                                            {ServicesData['Custom Software Solutions'].details}
-                                        </p>
-                                    </Container>
-                                </Col>
-                            </Row>
+                            <Container>
+                                <Row id='Web Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaGlobe size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                Web Development
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['Web Development'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                                <Row id='Mobile Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaTablet size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                Mobile Development
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['Mobile Development'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                                <Row id='AI Systems Development' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaBrain size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                AI Systems Development
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['AI Systems Development'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                                <Row id='WhatsApp Chatbots' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaWhatsapp size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                WhatsApp Chatbots
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['WhatsApp Chatbots'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                                <Row id='Telegram Bots' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaTelegram size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                Telegram Bots
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['Telegram Bots'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                                <Row id='Custom Software Solutions' style={{borderRadius: '20px', textAlign: 'left', marginBottom: '30px', backgroundColor: '#4A4A4A'}}>
+                                    <Col sm='3' style={{backgroundColor: '#4A4A4A', color: '#ffffff', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '30px', marginBottom: '30px'}}>
+                                            <FaCode size='20px' />
+                                            <h5 style={{marginTop: '10px'}}>
+                                                Custom Software Solutions
+                                            </h5>
+                                        </Container>
+                                    </Col>
+                                    <Col sm='9' style={{backgroundColor: '#EEECEC', borderRadius: 'inherit'}}>
+                                        <Container style={{marginTop: '15px', marginBottom: '30px'}}>
+                                            <p  style={{textAlign: 'left', fontWeight: 400, whiteSpace: 'pre-line'}}>
+                                                {ServicesData['Custom Software Solutions'].details}
+                                            </p>
+                                        </Container>
+                                    </Col>
+                                </Row>
+                            </Container>
                         </Container>
                     </div>
                 }

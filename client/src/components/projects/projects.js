@@ -123,9 +123,9 @@ class Projects extends Component{
                     : <div>
                         <Container>
                             <br/><br/>
-                            <h1 style={{fontWeight: 'bold'}}>
+                            <h3 style={{fontWeight: 'bold'}}>
                                 Projects
-                            </h1>
+                            </h3>
                             <br/><br/><br/>
                             <Row>
                                 {
