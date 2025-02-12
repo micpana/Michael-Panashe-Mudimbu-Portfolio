@@ -38,6 +38,7 @@ import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
 import { FaBrain, FaCode, FaGlobe, FaRobot, FaTablet, FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { ServicesData } from '../../data/services_data';
 
 class Services extends Component{
     static propTypes = {
@@ -138,7 +139,15 @@ class Services extends Component{
                                                 Web Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['Web Development'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Web Development'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Web Development'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Web Development'}
@@ -160,7 +169,15 @@ class Services extends Component{
                                                 Mobile Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['Mobile Development'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Mobile Development'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Mobile Development'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Mobile Development'}
@@ -182,7 +199,15 @@ class Services extends Component{
                                                 AI Systems Development
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['AI Systems Development'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['AI Systems Development'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['AI Systems Development'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#AI Systems Development'}
@@ -204,7 +229,15 @@ class Services extends Component{
                                                 WhatsApp Chatbots
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['WhatsApp Chatbots'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['WhatsApp Chatbots'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['WhatsApp Chatbots'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#WhatsApp Chatbots'}
@@ -226,7 +259,15 @@ class Services extends Component{
                                                 Telegram Bots
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['Telegram Bots'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Telegram Bots'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Telegram Bots'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Telegram Bots'}
@@ -248,7 +289,15 @@ class Services extends Component{
                                                 Custom Software Solutions
                                             </h4>
                                             <p style={{fontSize: '13px', marginTop: '20px'}}>
-                                                
+                                                {
+                                                    ServicesData['Custom Software Solutions'].length <= 130
+                                                    ? <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Custom Software Solutions'].details}
+                                                    </p>
+                                                    : <p style={{textAlign: 'left', fontWeight: 200}}>
+                                                        {ServicesData['Custom Software Solutions'].details.substring(0, 130)}...
+                                                    </p>
+                                                }
                                             </p>
                                             <h6 style={{cursor: 'pointer', fontWeight: 500, fontSize: '13px', marginTop: '20px'}} 
                                                 onClick={() => window.location.href = './services/#Custom Software Solutions'}

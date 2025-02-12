@@ -38,6 +38,7 @@ import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
 import { FaBrain, FaCode, FaGlobe, FaTablet, FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { ServicesData } from '../../data/services_data';
 
 class Services extends Component{
     static propTypes = {
@@ -137,7 +138,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['Web Development'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>
@@ -152,7 +155,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['Mobile Development'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>
@@ -167,7 +172,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['AI Systems Development'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>
@@ -182,7 +189,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['WhatsApp Chatbots'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>
@@ -197,7 +206,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['Telegram Bots'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>
@@ -212,7 +223,9 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='9' style={{backgroundColor: '#EEECEC'}}>
                                     <Container style={{marginTop: '30px', marginBottom: '30px'}}>
-
+                                        <p  style={{textAlign: 'left', fontWeight: 300, whiteSpace: 'pre-line'}}>
+                                            {ServicesData['Custom Software Solutions'].details}
+                                        </p>
                                     </Container>
                                 </Col>
                             </Row>

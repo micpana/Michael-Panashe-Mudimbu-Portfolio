@@ -55,7 +55,7 @@ class Projects extends Component{
             on_mobile: false,
             slide_autoplay: true,
             current_image_index: 0,
-            project: {images: []}
+            project: {images: [], description: ''}
         };
 
         this.HandleChange = (e) => {
@@ -184,7 +184,7 @@ class Projects extends Component{
                                 <h6 style={{fontWeight: 400, textAlign: 'left', marginTop: '10px', fontSize: '12px'}}>
                                     {project.category}
                                 </h6>
-                                <p style={{textAlign: 'left', marginTop: '30px', fontWeight: 300}}>
+                                <p style={{textAlign: 'left', marginTop: '10px', fontWeight: 300, whiteSpace: 'pre-line'}}>
                                     {project.description}
                                 </p>
                                 <p style={{textAlign: 'left', marginTop: '30px'}}>
