@@ -16,6 +16,89 @@ import OculaFinanceImage14 from '../images/projects/Ocula Finance/14.PNG'
 import OculaFinanceImage15 from '../images/projects/Ocula Finance/15.PNG'
 import OculaFinanceImage16 from '../images/projects/Ocula Finance/16.PNG'
 // ****************************************************************************
+// Bossalf International ******************************************************
+import BossalfInternationalImage1 from '../images/projects/Bossalf International/1.png'
+import BossalfInternationalImage2 from '../images/projects/Bossalf International/2.png'
+import BossalfInternationalImage3 from '../images/projects/Bossalf International/3.png'
+import BossalfInternationalImage4 from '../images/projects/Bossalf International/4.png'
+import BossalfInternationalImage5 from '../images/projects/Bossalf International/5.png'
+import BossalfInternationalImage6 from '../images/projects/Bossalf International/6.png'
+import BossalfInternationalImage7 from '../images/projects/Bossalf International/7.png'
+import BossalfInternationalImage8 from '../images/projects/Bossalf International/8.png'
+import BossalfInternationalImage9 from '../images/projects/Bossalf International/9.png'
+import BossalfInternationalImage10 from '../images/projects/Bossalf International/10.png'
+import BossalfInternationalImage11 from '../images/projects/Bossalf International/11.png'
+import BossalfInternationalImage12 from '../images/projects/Bossalf International/12.png'
+import BossalfInternationalImage13 from '../images/projects/Bossalf International/13.png'
+// ****************************************************************************
+// Skin Sage ******************************************************************
+import SkinSageImage1 from '../images/projects/Skin Sage/1.png'
+import SkinSageImage2 from '../images/projects/Skin Sage/2.png'
+import SkinSageImage3 from '../images/projects/Skin Sage/3.png'
+import SkinSageImage4 from '../images/projects/Skin Sage/4.png'
+import SkinSageImage5 from '../images/projects/Skin Sage/5.png'
+import SkinSageImage6 from '../images/projects/Skin Sage/6.png'
+import SkinSageImage7 from '../images/projects/Skin Sage/7.png'
+import SkinSageImage8 from '../images/projects/Skin Sage/8.png'
+import SkinSageImage9 from '../images/projects/Skin Sage/9.png'
+import SkinSageImage10 from '../images/projects/Skin Sage/10.png'
+import SkinSageImage11 from '../images/projects/Skin Sage/11.png'
+import SkinSageImage12 from '../images/projects/Skin Sage/12.png'
+import SkinSageImage13 from '../images/projects/Skin Sage/13.png'
+import SkinSageImage14 from '../images/projects/Skin Sage/14.png'
+import SkinSageImage15 from '../images/projects/Skin Sage/15.png'
+import SkinSageImage16 from '../images/projects/Skin Sage/16.png'
+import SkinSageImage17 from '../images/projects/Skin Sage/17.png'
+import SkinSageImage18 from '../images/projects/Skin Sage/18.png'
+// ****************************************************************************
+// Beyond Motivation **********************************************************
+import BeyondMotivationImage1 from '../images/projects/Beyond Motivation/1.png'
+import BeyondMotivationImage2 from '../images/projects/Beyond Motivation/2.png'
+import BeyondMotivationImage3 from '../images/projects/Beyond Motivation/3.png'
+import BeyondMotivationImage4 from '../images/projects/Beyond Motivation/4.png'
+import BeyondMotivationImage5 from '../images/projects/Beyond Motivation/5.png'
+import BeyondMotivationImage6 from '../images/projects/Beyond Motivation/6.png'
+import BeyondMotivationImage7 from '../images/projects/Beyond Motivation/7.png'
+import BeyondMotivationImage8 from '../images/projects/Beyond Motivation/8.png'
+import BeyondMotivationImage9 from '../images/projects/Beyond Motivation/9.png'
+import BeyondMotivationImage10 from '../images/projects/Beyond Motivation/10.png'
+import BeyondMotivationImage11 from '../images/projects/Beyond Motivation/11.png'
+import BeyondMotivationImage12 from '../images/projects/Beyond Motivation/12.png'
+import BeyondMotivationImage13 from '../images/projects/Beyond Motivation/13.png'
+import BeyondMotivationImage14 from '../images/projects/Beyond Motivation/14.png'
+import BeyondMotivationImage15 from '../images/projects/Beyond Motivation/15.png'
+import BeyondMotivationImage16 from '../images/projects/Beyond Motivation/16.png'
+// ****************************************************************************
+// Liberty Makuyana ***********************************************************
+import LibertyMakuyanaImage1 from '../images/projects/Liberty Makuyana/1.png'
+import LibertyMakuyanaImage2 from '../images/projects/Liberty Makuyana/2.png'
+import LibertyMakuyanaImage3 from '../images/projects/Liberty Makuyana/3.png'
+import LibertyMakuyanaImage4 from '../images/projects/Liberty Makuyana/4.png'
+import LibertyMakuyanaImage5 from '../images/projects/Liberty Makuyana/5.png'
+import LibertyMakuyanaImage6 from '../images/projects/Liberty Makuyana/6.png'
+import LibertyMakuyanaImage7 from '../images/projects/Liberty Makuyana/7.png'
+import LibertyMakuyanaImage8 from '../images/projects/Liberty Makuyana/8.png'
+import LibertyMakuyanaImage9 from '../images/projects/Liberty Makuyana/9.png'
+// ****************************************************************************
+// Eleanor Ross ***************************************************************
+import EleanorRossImage1 from '../images/projects/Eleanor Ross/1.png'
+import EleanorRossImage2 from '../images/projects/Eleanor Ross/2.png'
+import EleanorRossImage3 from '../images/projects/Eleanor Ross/3.png'
+import EleanorRossImage4 from '../images/projects/Eleanor Ross/4.png'
+import EleanorRossImage5 from '../images/projects/Eleanor Ross/5.png'
+import EleanorRossImage6 from '../images/projects/Eleanor Ross/6.png'
+import EleanorRossImage7 from '../images/projects/Eleanor Ross/7.png'
+import EleanorRossImage8 from '../images/projects/Eleanor Ross/8.png'
+import EleanorRossImage9 from '../images/projects/Eleanor Ross/9.png'
+import EleanorRossImage10 from '../images/projects/Eleanor Ross/10.png'
+import EleanorRossImage11 from '../images/projects/Eleanor Ross/11.png'
+import EleanorRossImage12 from '../images/projects/Eleanor Ross/12.png'
+import EleanorRossImage13 from '../images/projects/Eleanor Ross/13.png'
+import EleanorRossImage14 from '../images/projects/Eleanor Ross/14.png'
+import EleanorRossImage15 from '../images/projects/Eleanor Ross/15.png'
+import EleanorRossImage16 from '../images/projects/Eleanor Ross/16.png'
+import EleanorRossImage17 from '../images/projects/Eleanor Ross/17.png'
+// ****************************************************************************
 
 // list of projects done and their attributes
 export const ProjectsData = [
@@ -57,7 +140,12 @@ export const ProjectsData = [
         `,
         main_url: 'https://bossalfinternational.co.zw/',
         backup_url: 'https://bossalfinternational.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            BossalfInternationalImage1, BossalfInternationalImage2, BossalfInternationalImage3, BossalfInternationalImage4, 
+            BossalfInternationalImage5, BossalfInternationalImage6, BossalfInternationalImage7, BossalfInternationalImage8,
+            BossalfInternationalImage9, BossalfInternationalImage10, BossalfInternationalImage11, BossalfInternationalImage12,
+            BossalfInternationalImage13
+        ],
         technologies: 'ReactJs'
     },
     {
@@ -72,7 +160,11 @@ export const ProjectsData = [
         `,
         main_url: '#',
         backup_url: '#',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            SkinSageImage1, SkinSageImage2, SkinSageImage3, SkinSageImage4, SkinSageImage5, SkinSageImage6, SkinSageImage7, SkinSageImage8,
+            SkinSageImage9, SkinSageImage10, SkinSageImage11, SkinSageImage12, SkinSageImage13, SkinSageImage14, SkinSageImage15,
+            SkinSageImage16, SkinSageImage17, SkinSageImage18
+        ],
         technologies: 'React Native, Python, Flask, AI / ML, Computer Vision, MongoDB, REST APIs'
     },
     {
@@ -85,7 +177,12 @@ export const ProjectsData = [
         `,
         main_url: 'https://beyondmotivation.co.uk/',
         backup_url: 'https://beyondmotivation.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            BeyondMotivationImage1, BeyondMotivationImage2, BeyondMotivationImage3, BeyondMotivationImage4, BeyondMotivationImage5, 
+            BeyondMotivationImage6, BeyondMotivationImage7, BeyondMotivationImage8, BeyondMotivationImage9, BeyondMotivationImage10,
+            BeyondMotivationImage11, BeyondMotivationImage12, BeyondMotivationImage13, BeyondMotivationImage14, BeyondMotivationImage15,
+            BeyondMotivationImage16
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
     {
@@ -102,7 +199,10 @@ export const ProjectsData = [
         `,
         main_url: 'https://libertymakuyana.com/',
         backup_url: 'https://libertymakuyana.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            LibertyMakuyanaImage1, LibertyMakuyanaImage2, LibertyMakuyanaImage3, LibertyMakuyanaImage4, LibertyMakuyanaImage5, 
+            LibertyMakuyanaImage6, LibertyMakuyanaImage7, LibertyMakuyanaImage8, LibertyMakuyanaImage9
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
     {
@@ -117,7 +217,11 @@ export const ProjectsData = [
         `,
         main_url: 'https://eleanoross.co.uk/',
         backup_url: '#',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            EleanorRossImage1, EleanorRossImage2, EleanorRossImage3, EleanorRossImage4, EleanorRossImage5, EleanorRossImage6, 
+            EleanorRossImage7, EleanorRossImage8, EleanorRossImage9, EleanorRossImage10, EleanorRossImage11, EleanorRossImage12, 
+            EleanorRossImage13, EleanorRossImage14, EleanorRossImage15, EleanorRossImage16, EleanorRossImage17
+        ],
         technologies: 'ReactJs'
     },
     {

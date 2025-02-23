@@ -15,7 +15,8 @@ const ProjectTile = ({ index, project }) => {
                     Loading image...
                 </div>
                 <img src={project.images[0]} onError={(e) => e.target.src = project.images[0]} style={{
-                        position: 'absolute', left: 0, right: 0, width: 'auto', maxWidth: '100%', height: 'auto', maxHeight: '160px'
+                        position: 'absolute', left: 0, right: 0, width: 'auto', maxWidth: '100%', height: 'auto', maxHeight: '160px',
+                        marginLeft: 'auto', marginRight: 'auto'
                     }} 
                 />
             </div>
