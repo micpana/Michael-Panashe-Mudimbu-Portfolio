@@ -38,6 +38,8 @@ import { LinkedIn, X } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
 import IntroImage from '../../images/intro_image.jpg'
+import MichaelPanasheMudimbuCV from '../../documents/Michael Panashe Mudimbu - CV.pdf';
+
 
 class Intro extends Component{
     static propTypes = {
@@ -133,7 +135,9 @@ class Intro extends Component{
                                     </p>
                                     <br/>
                                     <div style={{position: 'relative', width: '100%'}}>
-                                        <Button style={{backgroundColor: '#383838', position: 'absolute', left: 0}}>
+                                        <Button href={MichaelPanasheMudimbuCV}
+                                            style={{backgroundColor: '#383838', position: 'absolute', left: 0}}
+                                        >
                                             Download Resume
                                         </Button>
                                     </div>
