@@ -114,6 +114,92 @@ import AandEImage11 from '../images/projects/A & E/11.png'
 import AandEImage12 from '../images/projects/A & E/12.png'
 import AandEImage13 from '../images/projects/A & E/13.png'
 // ****************************************************************************
+// Fafa Kitchen and Home ******************************************************
+import FafaKitchenandHomeImage1 from '../images/projects/Fafa Kitchen and Home/1.png'
+import FafaKitchenandHomeImage2 from '../images/projects/Fafa Kitchen and Home/2.png'
+import FafaKitchenandHomeImage3 from '../images/projects/Fafa Kitchen and Home/3.png'
+import FafaKitchenandHomeImage4 from '../images/projects/Fafa Kitchen and Home/4.png'
+import FafaKitchenandHomeImage5 from '../images/projects/Fafa Kitchen and Home/5.png'
+import FafaKitchenandHomeImage6 from '../images/projects/Fafa Kitchen and Home/6.png'
+import FafaKitchenandHomeImage7 from '../images/projects/Fafa Kitchen and Home/7.png'
+import FafaKitchenandHomeImage8 from '../images/projects/Fafa Kitchen and Home/8.png'
+import FafaKitchenandHomeImage9 from '../images/projects/Fafa Kitchen and Home/9.png'
+import FafaKitchenandHomeImage10 from '../images/projects/Fafa Kitchen and Home/10.png'
+// ****************************************************************************
+// Espace *********************************************************************
+import EspaceImage1 from '../images/projects/Espace/1.png'
+import EspaceImage2 from '../images/projects/Espace/2.png'
+import EspaceImage3 from '../images/projects/Espace/3.png'
+import EspaceImage4 from '../images/projects/Espace/4.png'
+import EspaceImage5 from '../images/projects/Espace/5.png'
+import EspaceImage6 from '../images/projects/Espace/6.png'
+import EspaceImage7 from '../images/projects/Espace/7.png'
+import EspaceImage8 from '../images/projects/Espace/8.png'
+import EspaceImage9 from '../images/projects/Espace/9.png'
+import EspaceImage10 from '../images/projects/Espace/10.png'
+import EspaceImage11 from '../images/projects/Espace/11.png'
+import EspaceImage12 from '../images/projects/Espace/12.png'
+import EspaceImage13 from '../images/projects/Espace/13.png'
+import EspaceImage14 from '../images/projects/Espace/14.png'
+import EspaceImage15 from '../images/projects/Espace/15.png'
+// ****************************************************************************
+// Ridley Valley Tutorial *****************************************************
+import RidleyValleyTutorialImage1 from '../images/projects/Ridley Valley Tutorial/1.png'
+import RidleyValleyTutorialImage2 from '../images/projects/Ridley Valley Tutorial/2.png'
+import RidleyValleyTutorialImage3 from '../images/projects/Ridley Valley Tutorial/3.png'
+import RidleyValleyTutorialImage4 from '../images/projects/Ridley Valley Tutorial/4.png'
+import RidleyValleyTutorialImage5 from '../images/projects/Ridley Valley Tutorial/5.png'
+import RidleyValleyTutorialImage6 from '../images/projects/Ridley Valley Tutorial/6.png'
+import RidleyValleyTutorialImage7 from '../images/projects/Ridley Valley Tutorial/7.png'
+import RidleyValleyTutorialImage8 from '../images/projects/Ridley Valley Tutorial/8.png'
+import RidleyValleyTutorialImage9 from '../images/projects/Ridley Valley Tutorial/9.png'
+import RidleyValleyTutorialImage10 from '../images/projects/Ridley Valley Tutorial/10.png'
+import RidleyValleyTutorialImage11 from '../images/projects/Ridley Valley Tutorial/11.png'
+import RidleyValleyTutorialImage12 from '../images/projects/Ridley Valley Tutorial/12.png'
+import RidleyValleyTutorialImage13 from '../images/projects/Ridley Valley Tutorial/13.png'
+import RidleyValleyTutorialImage14 from '../images/projects/Ridley Valley Tutorial/14.png'
+// ****************************************************************************
+// First Medi-Careers Global **************************************************
+import FirstMediCareersGlobalImage1 from '../images/projects/First Medi-Careers Global/1.png'
+import FirstMediCareersGlobalImage2 from '../images/projects/First Medi-Careers Global/2.png'
+import FirstMediCareersGlobalImage3 from '../images/projects/First Medi-Careers Global/3.png'
+import FirstMediCareersGlobalImage4 from '../images/projects/First Medi-Careers Global/4.png'
+import FirstMediCareersGlobalImage5 from '../images/projects/First Medi-Careers Global/5.png'
+import FirstMediCareersGlobalImage6 from '../images/projects/First Medi-Careers Global/6.png'
+import FirstMediCareersGlobalImage7 from '../images/projects/First Medi-Careers Global/7.png'
+import FirstMediCareersGlobalImage8 from '../images/projects/First Medi-Careers Global/8.png'
+import FirstMediCareersGlobalImage9 from '../images/projects/First Medi-Careers Global/9.png'
+import FirstMediCareersGlobalImage10 from '../images/projects/First Medi-Careers Global/10.png'
+import FirstMediCareersGlobalImage11 from '../images/projects/First Medi-Careers Global/11.png'
+import FirstMediCareersGlobalImage12 from '../images/projects/First Medi-Careers Global/12.png'
+import FirstMediCareersGlobalImage13 from '../images/projects/First Medi-Careers Global/13.png'
+import FirstMediCareersGlobalImage14 from '../images/projects/First Medi-Careers Global/14.png'
+import FirstMediCareersGlobalImage15 from '../images/projects/First Medi-Careers Global/15.png'
+import FirstMediCareersGlobalImage16 from '../images/projects/First Medi-Careers Global/16.png'
+import FirstMediCareersGlobalImage17 from '../images/projects/First Medi-Careers Global/17.png'
+import FirstMediCareersGlobalImage18 from '../images/projects/First Medi-Careers Global/18.png'
+import FirstMediCareersGlobalImage19 from '../images/projects/First Medi-Careers Global/19.png'
+import FirstMediCareersGlobalImage20 from '../images/projects/First Medi-Careers Global/20.png'
+import FirstMediCareersGlobalImage21 from '../images/projects/First Medi-Careers Global/21.png'
+// ****************************************************************************
+// Onfit *********************************************************************
+import OnfitImage1 from '../images/projects/Onfit/1.png'
+import OnfitImage2 from '../images/projects/Onfit/2.png'
+import OnfitImage3 from '../images/projects/Onfit/3.png'
+import OnfitImage4 from '../images/projects/Onfit/4.png'
+import OnfitImage5 from '../images/projects/Onfit/5.png'
+import OnfitImage6 from '../images/projects/Onfit/6.png'
+import OnfitImage7 from '../images/projects/Onfit/7.png'
+import OnfitImage8 from '../images/projects/Onfit/8.png'
+import OnfitImage9 from '../images/projects/Onfit/9.png'
+import OnfitImage10 from '../images/projects/Onfit/10.png'
+import OnfitImage11 from '../images/projects/Onfit/11.png'
+import OnfitImage12 from '../images/projects/Onfit/12.png'
+import OnfitImage13 from '../images/projects/Onfit/13.png'
+import OnfitImage14 from '../images/projects/Onfit/14.png'
+import OnfitImage15 from '../images/projects/Onfit/15.png'
+import OnfitImage16 from '../images/projects/Onfit/16.png'
+// ****************************************************************************
 
 // list of projects done and their attributes
 export const ProjectsData = [
@@ -265,7 +351,10 @@ export const ProjectsData = [
         `,
         main_url: 'https://fafakitchenandhome.co.zw/',
         backup_url: 'https://fafakitchenandhome.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            FafaKitchenandHomeImage1, FafaKitchenandHomeImage2, FafaKitchenandHomeImage3, FafaKitchenandHomeImage4, FafaKitchenandHomeImage5,
+            FafaKitchenandHomeImage6, FafaKitchenandHomeImage7, FafaKitchenandHomeImage8, FafaKitchenandHomeImage9, FafaKitchenandHomeImage10
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
     {
@@ -278,7 +367,10 @@ export const ProjectsData = [
         `,
         main_url: 'https://espacezw.co.zw/',
         backup_url: 'https://espacezw.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            EspaceImage1, EspaceImage2, EspaceImage3, EspaceImage4, EspaceImage5, EspaceImage6, EspaceImage7, EspaceImage8, EspaceImage9,
+            EspaceImage10, EspaceImage11, EspaceImage12, EspaceImage13, EspaceImage14, EspaceImage15
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
     {
@@ -291,7 +383,12 @@ export const ProjectsData = [
         `,
         main_url: 'https://ridleyvalleytutorial.co.zw/',
         backup_url: 'https://ridleyvalleytutorial.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            RidleyValleyTutorialImage1, RidleyValleyTutorialImage2, RidleyValleyTutorialImage3, RidleyValleyTutorialImage4, 
+            RidleyValleyTutorialImage5, RidleyValleyTutorialImage6, RidleyValleyTutorialImage7, RidleyValleyTutorialImage8,
+            RidleyValleyTutorialImage9, RidleyValleyTutorialImage10, RidleyValleyTutorialImage11, RidleyValleyTutorialImage12,
+            RidleyValleyTutorialImage13, RidleyValleyTutorialImage14
+        ],
         technologies: 'ReactJs'
     },
     {
@@ -304,7 +401,14 @@ export const ProjectsData = [
         `,
         main_url: 'https://firstmedicareersglobal.co.zw/',
         backup_url: 'https://firstmedicareersglobal.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            FirstMediCareersGlobalImage1, FirstMediCareersGlobalImage2, FirstMediCareersGlobalImage3, FirstMediCareersGlobalImage4,
+            FirstMediCareersGlobalImage5, FirstMediCareersGlobalImage6, FirstMediCareersGlobalImage7, FirstMediCareersGlobalImage8,
+            FirstMediCareersGlobalImage9, FirstMediCareersGlobalImage10, FirstMediCareersGlobalImage11, FirstMediCareersGlobalImage12,
+            FirstMediCareersGlobalImage13, FirstMediCareersGlobalImage14, FirstMediCareersGlobalImage15, FirstMediCareersGlobalImage16,
+            FirstMediCareersGlobalImage17, FirstMediCareersGlobalImage18, FirstMediCareersGlobalImage19, FirstMediCareersGlobalImage20,
+            FirstMediCareersGlobalImage21
+        ],
         technologies: 'ReactJs'
     },
     {
@@ -317,7 +421,10 @@ export const ProjectsData = [
         `,
         main_url: 'https://onfiit.com/',
         backup_url: 'https://onfit.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+           OnfitImage1, OnfitImage2, OnfitImage3, OnfitImage4, OnfitImage5, OnfitImage6, OnfitImage7, OnfitImage8, OnfitImage9,
+           OnfitImage10, OnfitImage11, OnfitImage12, OnfitImage13, OnfitImage14, OnfitImage15, OnfitImage16
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
 ]
