@@ -16,6 +16,39 @@ import OculaFinanceImage14 from '../images/projects/Ocula Finance/14.PNG'
 import OculaFinanceImage15 from '../images/projects/Ocula Finance/15.PNG'
 import OculaFinanceImage16 from '../images/projects/Ocula Finance/16.PNG'
 // ****************************************************************************
+// Family of Greatness ********************************************************
+import FamilyofGreatnessImage1 from '../images/projects/Family of Greatness/1.png'
+import FamilyofGreatnessImage2 from '../images/projects/Family of Greatness/2.png'
+import FamilyofGreatnessImage3 from '../images/projects/Family of Greatness/3.png'
+import FamilyofGreatnessImage4 from '../images/projects/Family of Greatness/4.png'
+import FamilyofGreatnessImage5 from '../images/projects/Family of Greatness/5.png'
+import FamilyofGreatnessImage6 from '../images/projects/Family of Greatness/6.png'
+import FamilyofGreatnessImage7 from '../images/projects/Family of Greatness/7.png'
+import FamilyofGreatnessImage8 from '../images/projects/Family of Greatness/8.png'
+import FamilyofGreatnessImage9 from '../images/projects/Family of Greatness/9.png'
+import FamilyofGreatnessImage10 from '../images/projects/Family of Greatness/10.png'
+import FamilyofGreatnessImage11 from '../images/projects/Family of Greatness/11.png'
+import FamilyofGreatnessImage12 from '../images/projects/Family of Greatness/12.png'
+import FamilyofGreatnessImage13 from '../images/projects/Family of Greatness/13.png'
+import FamilyofGreatnessImage14 from '../images/projects/Family of Greatness/14.png'
+import FamilyofGreatnessImage15 from '../images/projects/Family of Greatness/15.png'
+import FamilyofGreatnessImage16 from '../images/projects/Family of Greatness/16.png'
+import FamilyofGreatnessImage17 from '../images/projects/Family of Greatness/17.png'
+import FamilyofGreatnessImage18 from '../images/projects/Family of Greatness/18.png'
+import FamilyofGreatnessImage19 from '../images/projects/Family of Greatness/19.png'
+import FamilyofGreatnessImage20 from '../images/projects/Family of Greatness/20.png'
+import FamilyofGreatnessImage21 from '../images/projects/Family of Greatness/21.png'
+import FamilyofGreatnessImage22 from '../images/projects/Family of Greatness/22.png'
+import FamilyofGreatnessImage23 from '../images/projects/Family of Greatness/23.png'
+import FamilyofGreatnessImage24 from '../images/projects/Family of Greatness/24.png'
+import FamilyofGreatnessImage25 from '../images/projects/Family of Greatness/25.png'
+import FamilyofGreatnessImage26 from '../images/projects/Family of Greatness/26.png'
+import FamilyofGreatnessImage27 from '../images/projects/Family of Greatness/27.png'
+import FamilyofGreatnessImage28 from '../images/projects/Family of Greatness/28.png'
+import FamilyofGreatnessImage29 from '../images/projects/Family of Greatness/29.png'
+import FamilyofGreatnessImage30 from '../images/projects/Family of Greatness/30.png'
+import FamilyofGreatnessImage31 from '../images/projects/Family of Greatness/31.png'
+// ****************************************************************************
 // Bossalf International ******************************************************
 import BossalfInternationalImage1 from '../images/projects/Bossalf International/1.png'
 import BossalfInternationalImage2 from '../images/projects/Bossalf International/2.png'
@@ -198,7 +231,6 @@ import OnfitImage12 from '../images/projects/Onfit/12.png'
 import OnfitImage13 from '../images/projects/Onfit/13.png'
 import OnfitImage14 from '../images/projects/Onfit/14.png'
 import OnfitImage15 from '../images/projects/Onfit/15.png'
-import OnfitImage16 from '../images/projects/Onfit/16.png'
 // ****************************************************************************
 
 // list of projects done and their attributes
@@ -228,7 +260,15 @@ export const ProjectsData = [
         `,
         main_url: '#',
         backup_url: '#',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            FamilyofGreatnessImage1, FamilyofGreatnessImage2, FamilyofGreatnessImage3, FamilyofGreatnessImage4, FamilyofGreatnessImage5,
+            FamilyofGreatnessImage6, FamilyofGreatnessImage7, FamilyofGreatnessImage8, FamilyofGreatnessImage9, FamilyofGreatnessImage10,
+            FamilyofGreatnessImage11, FamilyofGreatnessImage12, FamilyofGreatnessImage13, FamilyofGreatnessImage14, FamilyofGreatnessImage15,
+            FamilyofGreatnessImage16, FamilyofGreatnessImage17, FamilyofGreatnessImage18, FamilyofGreatnessImage19, FamilyofGreatnessImage20,
+            FamilyofGreatnessImage21, FamilyofGreatnessImage22, FamilyofGreatnessImage23, FamilyofGreatnessImage24, FamilyofGreatnessImage25,
+            FamilyofGreatnessImage26, FamilyofGreatnessImage27, FamilyofGreatnessImage28, FamilyofGreatnessImage29, FamilyofGreatnessImage30,
+            FamilyofGreatnessImage31
+        ],
         technologies: 'React Native, Python, Flask, MongoDB, REST APIs'
     },
     {
@@ -423,7 +463,7 @@ export const ProjectsData = [
         backup_url: 'https://onfit.netlify.app/',
         images: [
            OnfitImage1, OnfitImage2, OnfitImage3, OnfitImage4, OnfitImage5, OnfitImage6, OnfitImage7, OnfitImage8, OnfitImage9,
-           OnfitImage10, OnfitImage11, OnfitImage12, OnfitImage13, OnfitImage14, OnfitImage15, OnfitImage16
+           OnfitImage10, OnfitImage11, OnfitImage12, OnfitImage13, OnfitImage14, OnfitImage15
         ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },

@@ -49,14 +49,14 @@ const ProjectTile = ({ index, project }) => {
             }
             {
                 project.technologies.length <= 35
-                ? <h6 style={{textAlign: 'left', marginTop: '10px', fontWeight: 350}}>
+                ? <h6 style={{textAlign: 'left', marginTop: '10px', fontWeight: 400}}>
                     {project.technologies}
                 </h6>
-                : <h6 style={{textAlign: 'left', marginTop: '10px', fontWeight: 350}}>
+                : <h6 style={{textAlign: 'left', marginTop: '10px', fontWeight: 400}}>
                     {project.technologies.substring(0, 35)}...
                 </h6>
             }
-            <h6 style={{textAlign: 'right', cursor: 'pointer', fontWeight: 500}} 
+            <h6 style={{textAlign: 'right', cursor: 'pointer', fontWeight: 600}} 
                 onClick={() => window.location.href = '/projects/' + project.title}
             >
                 Read more

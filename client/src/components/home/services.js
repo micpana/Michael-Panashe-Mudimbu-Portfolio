@@ -309,7 +309,7 @@ class Services extends Component{
                                 </Col>
                             </Row>
                             <h6 style={{
-                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 600
+                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 700
                                 }} 
                                 onClick={() => window.location.href = './services/'}
                             >
