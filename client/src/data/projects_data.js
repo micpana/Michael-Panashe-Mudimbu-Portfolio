@@ -99,6 +99,21 @@ import EleanorRossImage15 from '../images/projects/Eleanor Ross/15.png'
 import EleanorRossImage16 from '../images/projects/Eleanor Ross/16.png'
 import EleanorRossImage17 from '../images/projects/Eleanor Ross/17.png'
 // ****************************************************************************
+// A & E **********************************************************************
+import AandEImage1 from '../images/projects/A & E/1.png'
+import AandEImage2 from '../images/projects/A & E/2.png'
+import AandEImage3 from '../images/projects/A & E/3.png'
+import AandEImage4 from '../images/projects/A & E/4.png'
+import AandEImage5 from '../images/projects/A & E/5.png'
+import AandEImage6 from '../images/projects/A & E/6.png'
+import AandEImage7 from '../images/projects/A & E/7.png'
+import AandEImage8 from '../images/projects/A & E/8.png'
+import AandEImage9 from '../images/projects/A & E/9.png'
+import AandEImage10 from '../images/projects/A & E/10.png'
+import AandEImage11 from '../images/projects/A & E/11.png'
+import AandEImage12 from '../images/projects/A & E/12.png'
+import AandEImage13 from '../images/projects/A & E/13.png'
+// ****************************************************************************
 
 // list of projects done and their attributes
 export const ProjectsData = [
@@ -234,7 +249,10 @@ export const ProjectsData = [
         `,
         main_url: 'https://aande.co.zw/',
         backup_url: 'https://aande.netlify.app/',
-        images: [OculaFinanceImage1, OculaFinanceImage2],
+        images: [
+            AandEImage1, AandEImage2, AandEImage3, AandEImage4, AandEImage5, AandEImage6, AandEImage7, AandEImage8, AandEImage9,
+            AandEImage10, AandEImage11, AandEImage12, AandEImage13
+        ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
     },
     {
