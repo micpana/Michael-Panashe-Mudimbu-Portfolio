@@ -121,6 +121,8 @@ class Contact extends Component{
             }else{ // send data to server
                 this.LoadingOn()
 
+                alert('Contact form under construction. Please use the email provided to contact me.')
+
                 // loading off
                 this.LoadingOff()
             }
