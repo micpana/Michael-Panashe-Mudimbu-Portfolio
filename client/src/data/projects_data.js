@@ -371,7 +371,7 @@ export const ProjectsData = [
         description: `
             A & E is a lifestyle-driven retail brand dedicated to convenience, quality, and thoughtful solutions for every need. Whether it's a last-minute gift, a luxury indulgence, or everyday essentials, A&E curates a diverse range of products across categories such as Babies' World, Gadgets Corner, Fitness, Beauty, and Kids' Corner.
 
-            With a focus on reliability, efficiency, and personalized service, A&E ensures a seamless shopping experience while fostering meaningful relationships with customers. By offering affordable prices and helpful conversations, we empower buyers to make the best purchasing decisions with confidence.
+            With a focus on reliability, efficiency, and personalized service, A&E ensures a seamless shopping experience while fostering meaningful relationships with customers. By offering affordable prices and helpful conversations, A & E empower buyers to make the best purchasing decisions with confidence.
         `,
         main_url: 'https://aande.co.zw/',
         backup_url: 'https://aande.netlify.app/',
@@ -385,9 +385,7 @@ export const ProjectsData = [
         title: 'Fafa Kitchen & Home',
         category: 'Web App',
         description: `
-            Fafa Kitchen & Home is dedicated to transforming kitchens and living spaces into modern, stylish, and functional environments. From premium kitchenware and décor to bathroom accessories, we provide everything you need to create a home that is both comfortable and aesthetically pleasing.
-
-            With a carefully curated selection of home essentials, Fafa Kitchen & Home ensures that every space reflects elegance, practicality, and personal style.
+            A brand dedicated to modernizing kitchens and living spaces with premium kitchenware, décor, and bathroom accessories. Fafa Kitchen & Home offers a curated selection of home essentials that blend style, functionality, and comfort, ensuring every space reflects elegance and practicality.
         `,
         main_url: 'https://fafakitchenandhome.co.zw/',
         backup_url: 'https://fafakitchenandhome.netlify.app/',
@@ -417,9 +415,7 @@ export const ProjectsData = [
         title: 'Ridley Valley Tutorial',
         category: 'Website',
         description: `
-            Ridley Valley Tutorial provides personalized learning programs tailored to each child’s unique academic needs. Our approach focuses on customized learning plans, effective study strategies, and skill development to help students build confidence and excel in school.
-
-            We offer test and exam preparation, targeted support for challenging subjects, and guidance on study habits and organization skills. With our dedicated tutoring, students experience significant improvement in both grades and subject comprehension.
+            A personalized learning platform designed to enhance academic success through customized tutoring programs. Ridley Valley Tutorial provides tailored study plans, test preparation, and subject-specific support to help students build confidence, improve grades, and develop effective study habits.
         `,
         main_url: 'https://ridleyvalleytutorial.co.zw/',
         backup_url: 'https://ridleyvalleytutorial.netlify.app/',
