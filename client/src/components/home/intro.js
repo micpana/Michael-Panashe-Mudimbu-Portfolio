@@ -34,11 +34,12 @@ import InputErrors from '../../tools/input_errors';
 import NetworkErrorScreen from '../../tools/network_error_screen';
 import { IsEmailStructureValid, IsPasswordStructureValid } from '../../tools/input_syntax_checks'
 import {  } from '../../config/credentials'
-import { LinkedIn, X } from '../../config/social_links'
+import { LinkedIn, X, Github } from '../../config/social_links'
 import Modal from '../../tools/modal';
 import DateTimeDisplay from '../../tools/timezone_conversion'
 import IntroImage from '../../images/intro_image.jpg'
 import MichaelPanasheMudimbuCV from '../../documents/Michael Panashe Mudimbu - CV.pdf';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 class Intro extends Component{
@@ -134,13 +135,27 @@ class Intro extends Component{
                                         clean, efficient code. Let's build something amazing!
                                     </p>
                                     <br/>
-                                    <div style={{position: 'relative', width: '100%'}}>
-                                        <Button href={MichaelPanasheMudimbuCV}
-                                            style={{backgroundColor: '#383838', position: 'absolute', left: 0}}
-                                        >
-                                            Download Resume
-                                        </Button>
-                                    </div>
+                                    <Row>
+                                        <Col xs='7' sm='6' md='5' lg='4' xl='3' xxl='3'>
+                                            <div style={{position: 'relative', width: '100%'}}>
+                                                <Button href={MichaelPanasheMudimbuCV}
+                                                    style={{backgroundColor: '#383838', position: 'absolute', left: 0}}
+                                                >
+                                                    Download Resume
+                                                </Button>
+                                            </div>
+                                        </Col>
+                                        <Col xs='5' sm='6' md='3' lg='3' xl='3' xxl='3'>
+                                            <div style={{marginTop: '10px', textAlign: 'left'}}>
+                                                <a href={Github} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                                    <FaGithub size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
+                                                </a>
+                                                <a href={LinkedIn} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                                    <FaLinkedin size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
+                                                </a>
+                                            </div>
+                                        </Col>
+                                    </Row>
                                 </Col>
                                 <Col xs="12" sm="3" md="3" className="order-1 order-md-2">
                                     <img src={IntroImage} 

@@ -61,11 +61,11 @@ class Footer extends Component{
                         </Col>
                         <Col sm='4'>
                             <div style={{paddingTop: '10px'}}>
-                                <a href={LinkedIn} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
-                                    <FaLinkedin size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
-                                </a>
                                 <a href={Github} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
                                     <FaGithub size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
+                                </a>
+                                <a href={LinkedIn} target='_blank'  rel='noreferrer' style={{color: 'inherit'}}>
+                                    <FaLinkedin size='20px' style={{marginLeft: '5px', marginRight: '5px', cursor: 'pointer'}}/>
                                 </a>
                             </div>
                         </Col>

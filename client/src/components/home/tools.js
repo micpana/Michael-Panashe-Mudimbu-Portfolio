@@ -128,7 +128,7 @@ class Tools extends Component{
                             <Row>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -143,7 +143,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -158,7 +158,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -173,7 +173,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -188,7 +188,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -203,7 +203,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -218,7 +218,7 @@ class Tools extends Component{
                                 </Col>
                                 <Col sm='3'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '50px', borderRadius: '10px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '50px', borderRadius: '10px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >

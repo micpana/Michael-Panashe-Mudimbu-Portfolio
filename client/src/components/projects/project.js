@@ -194,7 +194,9 @@ class Projects extends Component{
                                     <Col sm='4'>
                                         <FaLink /> Main Url:
                                         <br/>
-                                        <a href={project.main_url} style={{color: 'inherit', textDecoration: 'none'}}>
+                                        <a href={project.main_url} target='_blank'  rel='noreferrer' 
+                                            style={{color: 'inherit', textDecoration: 'none'}}
+                                        >
                                             {project.main_url}
                                         </a>
                                         <br/><br/>
@@ -205,7 +207,9 @@ class Projects extends Component{
                                     <Col sm='4'>
                                         <FaLink /> Backup Url:
                                         <br/>
-                                        <a href={project.backup_url} style={{color: 'inherit', textDecoration: 'none'}}>
+                                        <a href={project.backup_url} target='_blank'  rel='noreferrer' 
+                                            style={{color: 'inherit', textDecoration: 'none'}}
+                                        >
                                             {project.backup_url}
                                         </a>
                                         <br/><br/>

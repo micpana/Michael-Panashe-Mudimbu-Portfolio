@@ -129,7 +129,7 @@ class Services extends Component{
                             <Row>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -159,7 +159,7 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -189,7 +189,7 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -219,7 +219,7 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -249,7 +249,7 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
@@ -279,7 +279,7 @@ class Services extends Component{
                                 </Col>
                                 <Col sm='4'>
                                     <Container style={{
-                                            backgroundColor: '#4A4A4A', height: '340px', borderRadius: '20px', marginBottom: '30px',
+                                            backgroundColor: '#4A4A4A', minHeight: '340px', borderRadius: '20px', marginBottom: '30px',
                                             color: '#ffffff'
                                         }}
                                     >
