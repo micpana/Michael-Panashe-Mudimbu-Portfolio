@@ -215,7 +215,7 @@ import FirstMediCareersGlobalImage19 from '../images/projects/First Medi-Careers
 import FirstMediCareersGlobalImage20 from '../images/projects/First Medi-Careers Global/20.png'
 import FirstMediCareersGlobalImage21 from '../images/projects/First Medi-Careers Global/21.png'
 // ****************************************************************************
-// Onfit *********************************************************************
+// Onfit **********************************************************************
 import OnfitImage1 from '../images/projects/Onfit/1.png'
 import OnfitImage2 from '../images/projects/Onfit/2.png'
 import OnfitImage3 from '../images/projects/Onfit/3.png'
@@ -231,6 +231,43 @@ import OnfitImage12 from '../images/projects/Onfit/12.png'
 import OnfitImage13 from '../images/projects/Onfit/13.png'
 import OnfitImage14 from '../images/projects/Onfit/14.png'
 import OnfitImage15 from '../images/projects/Onfit/15.png'
+// ****************************************************************************
+// Farmer Management App ******************************************************
+import FarmerManagementApp1 from '../images/projects/Farmer Management App/1.png'
+import FarmerManagementApp2 from '../images/projects/Farmer Management App/2.png'
+import FarmerManagementApp3 from '../images/projects/Farmer Management App/3.png'
+import FarmerManagementApp4 from '../images/projects/Farmer Management App/4.png'
+import FarmerManagementApp5 from '../images/projects/Farmer Management App/5.png'
+import FarmerManagementApp6 from '../images/projects/Farmer Management App/6.png'
+import FarmerManagementApp7 from '../images/projects/Farmer Management App/7.png'
+import FarmerManagementApp8 from '../images/projects/Farmer Management App/8.png'
+import FarmerManagementApp9 from '../images/projects/Farmer Management App/9.png'
+import FarmerManagementApp10 from '../images/projects/Farmer Management App/10.png'
+import FarmerManagementApp11 from '../images/projects/Farmer Management App/11.png'
+import FarmerManagementApp12 from '../images/projects/Farmer Management App/12.png'
+import FarmerManagementApp13 from '../images/projects/Farmer Management App/13.png'
+import FarmerManagementApp14 from '../images/projects/Farmer Management App/14.png'
+import FarmerManagementApp15 from '../images/projects/Farmer Management App/15.png'
+import FarmerManagementApp16 from '../images/projects/Farmer Management App/16.png'
+import FarmerManagementApp17 from '../images/projects/Farmer Management App/17.png'
+import FarmerManagementApp18 from '../images/projects/Farmer Management App/18.png'
+import FarmerManagementApp19 from '../images/projects/Farmer Management App/19.png'
+import FarmerManagementApp20 from '../images/projects/Farmer Management App/20.png'
+// ****************************************************************************
+// MyuzikHeadz ****************************************************************
+import MyuzikHeadz1 from '../images/projects/MyuzikHeadz/1.png'
+import MyuzikHeadz2 from '../images/projects/MyuzikHeadz/2.png'
+import MyuzikHeadz3 from '../images/projects/MyuzikHeadz/3.png'
+import MyuzikHeadz4 from '../images/projects/MyuzikHeadz/4.png'
+import MyuzikHeadz5 from '../images/projects/MyuzikHeadz/5.png'
+import MyuzikHeadz6 from '../images/projects/MyuzikHeadz/6.png'
+import MyuzikHeadz7 from '../images/projects/MyuzikHeadz/7.png'
+import MyuzikHeadz8 from '../images/projects/MyuzikHeadz/8.png'
+import MyuzikHeadz9 from '../images/projects/MyuzikHeadz/9.png'
+import MyuzikHeadz10 from '../images/projects/MyuzikHeadz/10.png'
+import MyuzikHeadz11 from '../images/projects/MyuzikHeadz/11.png'
+import MyuzikHeadz12 from '../images/projects/MyuzikHeadz/12.png'
+import MyuzikHeadz13 from '../images/projects/MyuzikHeadz/13.png'
 // ****************************************************************************
 
 // list of projects done and their attributes
@@ -302,7 +339,8 @@ export const ProjectsData = [
         main_url: '#',
         backup_url: '#',
         images: [
-            SkinSageImage1, SkinSageImage2, SkinSageImage3, SkinSageImage4, SkinSageImage5, SkinSageImage6, SkinSageImage7, SkinSageImage8,
+            // SkinSageImage1, SkinSageImage2, 
+            SkinSageImage3, SkinSageImage4, SkinSageImage5, SkinSageImage6, SkinSageImage7, SkinSageImage8,
             SkinSageImage9, SkinSageImage10, SkinSageImage11, SkinSageImage12, SkinSageImage13, SkinSageImage14, SkinSageImage15,
             SkinSageImage16, SkinSageImage17, SkinSageImage18
         ],
@@ -462,5 +500,36 @@ export const ProjectsData = [
            OnfitImage10, OnfitImage11, OnfitImage12, OnfitImage13, OnfitImage14, OnfitImage15
         ],
         technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
+    },
+    {
+        title: 'Farmer Management App',
+        category: 'Mobile App',
+        description: `
+            A React Native mobile application designed for efficient farmer data collection and management. The app supports two user roles: Clerks, who input farmer details (name, national ID, farm type, crop, and location), and Admins, who configure form options. Built with offline functionality, it stores data locally in SQLite and syncs with a Flask-based backend using MongoDB when an internet connection is available. Secure authentication ensures role-based access, and the system provides a seamless user experience for agricultural data management.
+        `,
+        main_url: 'https://github.com/micpana/Eport-Farmer-Management-App',
+        backup_url: '#',
+        images: [
+            // FarmerManagementApp1, 
+            FarmerManagementApp2, FarmerManagementApp3, FarmerManagementApp4, FarmerManagementApp5, FarmerManagementApp6,
+            FarmerManagementApp7, FarmerManagementApp8, FarmerManagementApp9, FarmerManagementApp10, FarmerManagementApp11, FarmerManagementApp12,
+            FarmerManagementApp13, FarmerManagementApp14, FarmerManagementApp15, FarmerManagementApp16, FarmerManagementApp17, FarmerManagementApp18,
+            FarmerManagementApp19, FarmerManagementApp20
+        ],
+        technologies: 'React Native, Python, Flask, MongoDB, SQLite, REST APIs'
+    },
+    {
+        title: 'MyuzikHeadz',
+        category: 'Web App',
+        description: `
+            MyuzikHeadz is a web-based music streaming platform that allows users to upload, play, and manage their favorite tracks. With an intuitive interface, users can create and curate playlists, add songs to favorites, and explore a seamless listening experience. Designed for music lovers, MyuzikHeads brings a personalized and engaging way to enjoy music online.
+        `,
+        main_url: 'https://myuzikheadz.com/',
+        backup_url: '#',
+        images: [
+            MyuzikHeadz1, MyuzikHeadz2, MyuzikHeadz3, MyuzikHeadz4, MyuzikHeadz5, MyuzikHeadz6, MyuzikHeadz7, MyuzikHeadz8, MyuzikHeadz9,
+            MyuzikHeadz10, MyuzikHeadz11, MyuzikHeadz12, MyuzikHeadz13
+        ],
+        technologies: 'ReactJS, Python, Flask, MongoDB, REST APIs'
     },
 ]
