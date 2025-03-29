@@ -8,7 +8,7 @@ import {
 
 const ProjectTile = ({ index, project }) => { 
 
-    return <Col xs='12' sm='4' key={index} style={{marginBottom: '30px'}}>
+    return <Col xs='12' sm='4' key={index} style={{marginBottom: '70px'}}>
         <Container>
             <div style={{position: 'relative', overflow: 'hidden', width: '100%', height: '160px', backgroundColor: 'inherit', borderTopLeftRadius: '10px', borderTopRightRadius: '10px'}}>
                 <div style={{position: 'absolute', top: '170px', left: 0, right: 0}}>
