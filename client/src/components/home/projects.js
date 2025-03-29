@@ -134,7 +134,7 @@ class Projects extends Component{
                                 }
                             </Row>
                             <h6 style={{
-                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '15px', fontWeight: 700
+                                    textAlign: 'left', cursor: 'pointer', textDecorationLine: 'underline', marginTop: '-35px', fontWeight: 700
                                 }} 
                                 onClick={() => window.location.href = './projects/'}
                             >
