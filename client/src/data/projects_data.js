@@ -279,7 +279,7 @@ export const ProjectsData = [
             An AI-driven trading assistant that delivers high-probability trade signals with a maximum holding time of 3 hours and 30 minutes. Each trade includes predefined take-profit and stop-loss levels, maintaining a minimum 1:2 risk-to-reward ratio. The system leverages dedicated AI models for each instrument, achieving over 80% win rates. Designed for accessibility, Ocula Finance empowers traders with data-backed insights to minimize risk and maximize returns.
         `,
         main_url: 'https://oculafinance.com/',
-        backup_url: 'https://oculafinance.netlify.app/',
+        backup_url: 'https://github.com/micpana/Ocula-Finance',
         images: [
             OculaFinanceImage1, OculaFinanceImage2, OculaFinanceImage3, OculaFinanceImage4, OculaFinanceImage5, OculaFinanceImage6,
             OculaFinanceImage7, OculaFinanceImage8, OculaFinanceImage9, OculaFinanceImage10, OculaFinanceImage11, OculaFinanceImage12,
