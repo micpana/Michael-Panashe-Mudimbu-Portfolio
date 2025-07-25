@@ -269,23 +269,76 @@ import MyuzikHeadz11 from '../images/projects/MyuzikHeadz/11.png'
 import MyuzikHeadz12 from '../images/projects/MyuzikHeadz/12.png'
 import MyuzikHeadz13 from '../images/projects/MyuzikHeadz/13.png'
 // ****************************************************************************
+// Wisdom Library *************************************************************
+import WisdomLibraryImage1 from '../images/projects/Wisdom Library/1.png'
+import WisdomLibraryImage2 from '../images/projects/Wisdom Library/2.png'
+import WisdomLibraryImage3 from '../images/projects/Wisdom Library/3.png'
+import WisdomLibraryImage4 from '../images/projects/Wisdom Library/4.png'
+import WisdomLibraryImage5 from '../images/projects/Wisdom Library/5.png'
+import WisdomLibraryImage6 from '../images/projects/Wisdom Library/6.png'
+import WisdomLibraryImage7 from '../images/projects/Wisdom Library/7.png'
+import WisdomLibraryImage8 from '../images/projects/Wisdom Library/8.png'
+import WisdomLibraryImage9 from '../images/projects/Wisdom Library/9.png'
+import WisdomLibraryImage10 from '../images/projects/Wisdom Library/10.png'
+import WisdomLibraryImage11 from '../images/projects/Wisdom Library/11.png'
+import WisdomLibraryImage12 from '../images/projects/Wisdom Library/12.png'
+import WisdomLibraryImage13 from '../images/projects/Wisdom Library/13.png'
+// ****************************************************************************
 
 // list of projects done and their attributes
 export const ProjectsData = [
     {
-        title: 'Ocula Finance',
+        title: 'Wisdom Library',
         category: 'Web App',
         description: `
-            An AI-driven trading assistant that delivers high-probability trade signals with a maximum holding time of 3 hours and 30 minutes. Each trade includes predefined take-profit and stop-loss levels, maintaining a minimum 1:2 risk-to-reward ratio. The system leverages dedicated AI models for each instrument, achieving over 80% win rates. Designed for accessibility, Ocula Finance empowers traders with data-backed insights to minimize risk and maximize returns.
+            The Wisdom Library (wisdomlibrary.co.zw) is a Zimbabwean platform offering transformative services and empowerment content. It provides inspiring books, Bibles, youth coaching podcasts, and book publishing services, with a focus on spiritual and personal development.
         `,
-        main_url: 'https://oculafinance.com/',
-        backup_url: 'https://github.com/micpana/Ocula-Finance',
+        main_url: 'https://wisdomlibrary.co.zw/',
+        backup_url: '#',
         images: [
-            OculaFinanceImage1, OculaFinanceImage2, OculaFinanceImage3, OculaFinanceImage4, OculaFinanceImage5, OculaFinanceImage6,
-            OculaFinanceImage7, OculaFinanceImage8, OculaFinanceImage9, OculaFinanceImage10, OculaFinanceImage11, OculaFinanceImage12,
-            OculaFinanceImage13, OculaFinanceImage14, OculaFinanceImage15, OculaFinanceImage16
+            WisdomLibraryImage1, WisdomLibraryImage2, WisdomLibraryImage3, WisdomLibraryImage4, WisdomLibraryImage5,
+            WisdomLibraryImage6, WisdomLibraryImage7, WisdomLibraryImage8, WisdomLibraryImage9, WisdomLibraryImage10,
+            WisdomLibraryImage11, WisdomLibraryImage12, WisdomLibraryImage13
         ],
-        technologies: 'ReactJs, Python, Flask, AI / ML, MongoDB, REST APIs'
+        technologies: 'ReactJs, Python, Flask, SQLite, RESTful API, Paynow'
+    },
+    {
+        title: 'Beyond Motivation',
+        category: 'Website',
+        description: `
+            A transformative platform dedicated to helping individuals and organizations discover and fulfill their purpose. Beyond Motivation operates on the belief that true meaning is found in living within the totality of one’s God-given purpose. Through mentorship, coaching, and structured programs, the platform equips and supports individuals on their journey to personal and professional growth.
+
+            With Liberty Makuyana as the voice behind Beyond Motivation, the platform offers impactful programs such as How to Speak Effectively, Interview Coaching, The Mentorship Class, and Becoming One of the Greats, with specialized sessions for both adults and children.
+        `,
+        main_url: 'https://beyondmotivation.co.uk/',
+        backup_url: 'https://beyondmotivation.netlify.app/',
+        images: [
+            BeyondMotivationImage1, BeyondMotivationImage2, BeyondMotivationImage3, BeyondMotivationImage4, BeyondMotivationImage5, 
+            BeyondMotivationImage6, BeyondMotivationImage7, BeyondMotivationImage8, BeyondMotivationImage9, BeyondMotivationImage10,
+            BeyondMotivationImage11, BeyondMotivationImage12, BeyondMotivationImage13, BeyondMotivationImage14, BeyondMotivationImage15,
+            BeyondMotivationImage16
+        ],
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API, Paypal'
+    },
+    {
+        title: 'Liberty Makuyana',
+        category: 'Website',
+        description: `
+            “We don’t do this to earn a living, we do this because it’s why we are living.” – Liberty Makuyana
+
+            Liberty Makuyana is a seasoned speaker known for his transformative message that deeply resonates with individuals and organizations alike. His unique approach challenges conventional thinking, delivering his teachings with clarity and impactful articulation.
+
+            Driven by the belief that each person has a God-given purpose, Liberty’s mantra, ‘Beyond Motivation’, empowers people to live fully within their purpose, which he believes is the key to finding true meaning in life. These principles transcend individual growth, extending to organizations, communities, nations, and the world.
+
+            Liberty is a Chartered Accountant, a published author, a business owner, and above all, a devout Christian. His programs, such as How to Speak Effectively (Group & One-on-One), Interview Coaching, The Mentorship Class, and Becoming One of the Greats, equip individuals with essential skills for personal and professional growth.
+        `,
+        main_url: 'https://libertymakuyana.com/',
+        backup_url: 'https://libertymakuyana.netlify.app/',
+        images: [
+            LibertyMakuyanaImage1, LibertyMakuyanaImage2, LibertyMakuyanaImage3, LibertyMakuyanaImage4, LibertyMakuyanaImage5, 
+            LibertyMakuyanaImage6, LibertyMakuyanaImage7, LibertyMakuyanaImage8, LibertyMakuyanaImage9
+        ],
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API, Paypal'
     },
     {
         title: 'Family Of Greatness',
@@ -306,25 +359,39 @@ export const ProjectsData = [
             FamilyofGreatnessImage26, FamilyofGreatnessImage27, FamilyofGreatnessImage28, FamilyofGreatnessImage29, FamilyofGreatnessImage30,
             FamilyofGreatnessImage31
         ],
-        technologies: 'React Native, Python, Flask, MongoDB, REST APIs'
+        technologies: 'React Native, Python, Flask, MongoDB, RESTful API'
     },
     {
-        title: 'Bossalf International',
-        category: 'Website',
+        title: 'Ocula Finance',
+        category: 'Web App',
         description: `
-            A furniture manufacturing platform that seamlessly blends style and functionality to create inspiring learning environments. Specializing in ergonomic and durable designs, Bossalf International provides high-quality furniture solutions for schools, universities, churches, and conferences. From polyshell chairs to versatile student desks, every piece is crafted with precision to enhance focus, collaboration, and creativity.
-
-            With a commitment to superior materials and customizable aesthetics, Bossalf International transforms spaces into hubs of productivity and inspiration.
+            An AI-driven trading assistant that delivers high-probability trade signals with a maximum holding time of 3 hours and 30 minutes. Each trade includes predefined take-profit and stop-loss levels, maintaining a minimum 1:2 risk-to-reward ratio. The system leverages dedicated AI models for each instrument, achieving over 80% win rates. Designed for accessibility, Ocula Finance empowers traders with data-backed insights to minimize risk and maximize returns.
         `,
-        main_url: 'https://bossalfinternational.co.zw/',
-        backup_url: 'https://bossalfinternational.netlify.app/',
+        main_url: 'https://oculafinance.com/',
+        backup_url: 'https://github.com/micpana/Ocula-Finance',
         images: [
-            BossalfInternationalImage1, BossalfInternationalImage2, BossalfInternationalImage3, BossalfInternationalImage4, 
-            BossalfInternationalImage5, BossalfInternationalImage6, BossalfInternationalImage7, BossalfInternationalImage8,
-            BossalfInternationalImage9, BossalfInternationalImage10, BossalfInternationalImage11, BossalfInternationalImage12,
-            BossalfInternationalImage13
+            OculaFinanceImage1, OculaFinanceImage2, OculaFinanceImage3, OculaFinanceImage4, OculaFinanceImage5, OculaFinanceImage6,
+            OculaFinanceImage7, OculaFinanceImage8, OculaFinanceImage9, OculaFinanceImage10, OculaFinanceImage11, OculaFinanceImage12,
+            OculaFinanceImage13, OculaFinanceImage14, OculaFinanceImage15, OculaFinanceImage16
         ],
-        technologies: 'ReactJs'
+        technologies: 'ReactJs, Python, Flask, AI / ML, MongoDB, RESTful API'
+    },
+    {
+        title: 'Farmer Management App',
+        category: 'Mobile App',
+        description: `
+            A React Native mobile application designed for efficient farmer data collection and management. The app supports two user roles: Clerks, who input farmer details (name, national ID, farm type, crop, and location), and Admins, who configure form options. Built with offline functionality, it stores data locally in SQLite and syncs with a Flask-based backend using MongoDB when an internet connection is available. Secure authentication ensures role-based access, and the system provides a seamless user experience for agricultural data management.
+        `,
+        main_url: 'https://github.com/micpana/Eport-Farmer-Management-App',
+        backup_url: '#',
+        images: [
+            // FarmerManagementApp1, 
+            FarmerManagementApp2, FarmerManagementApp3, FarmerManagementApp4, FarmerManagementApp5, FarmerManagementApp6,
+            FarmerManagementApp7, FarmerManagementApp8, FarmerManagementApp9, FarmerManagementApp10, FarmerManagementApp11, FarmerManagementApp12,
+            FarmerManagementApp13, FarmerManagementApp14, FarmerManagementApp15, FarmerManagementApp16, FarmerManagementApp17, FarmerManagementApp18,
+            FarmerManagementApp19, FarmerManagementApp20
+        ],
+        technologies: 'React Native, Python, Flask, MongoDB, SQLite, RESTful API'
     },
     {
         title: 'Skin Sage',
@@ -344,45 +411,7 @@ export const ProjectsData = [
             SkinSageImage9, SkinSageImage10, SkinSageImage11, SkinSageImage12, SkinSageImage13, SkinSageImage14, SkinSageImage15,
             SkinSageImage16, SkinSageImage17, SkinSageImage18
         ],
-        technologies: 'React Native, Python, Flask, AI / ML, Computer Vision, MongoDB, REST APIs'
-    },
-    {
-        title: 'Beyond Motivation',
-        category: 'Website',
-        description: `
-            A transformative platform dedicated to helping individuals and organizations discover and fulfill their purpose. Beyond Motivation operates on the belief that true meaning is found in living within the totality of one’s God-given purpose. Through mentorship, coaching, and structured programs, the platform equips and supports individuals on their journey to personal and professional growth.
-
-            With Liberty Makuyana as the voice behind Beyond Motivation, the platform offers impactful programs such as How to Speak Effectively, Interview Coaching, The Mentorship Class, and Becoming One of the Greats, with specialized sessions for both adults and children.
-        `,
-        main_url: 'https://beyondmotivation.co.uk/',
-        backup_url: 'https://beyondmotivation.netlify.app/',
-        images: [
-            BeyondMotivationImage1, BeyondMotivationImage2, BeyondMotivationImage3, BeyondMotivationImage4, BeyondMotivationImage5, 
-            BeyondMotivationImage6, BeyondMotivationImage7, BeyondMotivationImage8, BeyondMotivationImage9, BeyondMotivationImage10,
-            BeyondMotivationImage11, BeyondMotivationImage12, BeyondMotivationImage13, BeyondMotivationImage14, BeyondMotivationImage15,
-            BeyondMotivationImage16
-        ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
-    },
-    {
-        title: 'Liberty Makuyana',
-        category: 'Website',
-        description: `
-            “We don’t do this to earn a living, we do this because it’s why we are living.” – Liberty Makuyana
-
-            Liberty Makuyana is a seasoned speaker known for his transformative message that deeply resonates with individuals and organizations alike. His unique approach challenges conventional thinking, delivering his teachings with clarity and impactful articulation.
-
-            Driven by the belief that each person has a God-given purpose, Liberty’s mantra, ‘Beyond Motivation’, empowers people to live fully within their purpose, which he believes is the key to finding true meaning in life. These principles transcend individual growth, extending to organizations, communities, nations, and the world.
-
-            Liberty is a Chartered Accountant, a published author, a business owner, and above all, a devout Christian. His programs, such as How to Speak Effectively (Group & One-on-One), Interview Coaching, The Mentorship Class, and Becoming One of the Greats, equip individuals with essential skills for personal and professional growth.
-        `,
-        main_url: 'https://libertymakuyana.com/',
-        backup_url: 'https://libertymakuyana.netlify.app/',
-        images: [
-            LibertyMakuyanaImage1, LibertyMakuyanaImage2, LibertyMakuyanaImage3, LibertyMakuyanaImage4, LibertyMakuyanaImage5, 
-            LibertyMakuyanaImage6, LibertyMakuyanaImage7, LibertyMakuyanaImage8, LibertyMakuyanaImage9
-        ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
+        technologies: 'React Native, Python, Flask, AI / ML, Computer Vision, MongoDB, RESTful API'
     },
     {
         title: 'Eleanor Ross V1',
@@ -417,7 +446,7 @@ export const ProjectsData = [
             AandEImage1, AandEImage2, AandEImage3, AandEImage4, AandEImage5, AandEImage6, AandEImage7, AandEImage8, AandEImage9,
             AandEImage10, AandEImage11, AandEImage12, AandEImage13
         ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API'
     },
     {
         title: 'Fafa Kitchen & Home',
@@ -431,7 +460,7 @@ export const ProjectsData = [
             FafaKitchenandHomeImage1, FafaKitchenandHomeImage2, FafaKitchenandHomeImage3, FafaKitchenandHomeImage4, FafaKitchenandHomeImage5,
             FafaKitchenandHomeImage6, FafaKitchenandHomeImage7, FafaKitchenandHomeImage8, FafaKitchenandHomeImage9, FafaKitchenandHomeImage10
         ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API'
     },
     {
         title: 'Espace',
@@ -447,7 +476,7 @@ export const ProjectsData = [
             EspaceImage1, EspaceImage2, EspaceImage3, EspaceImage4, EspaceImage5, EspaceImage6, EspaceImage7, EspaceImage8, EspaceImage9,
             EspaceImage10, EspaceImage11, EspaceImage12, EspaceImage13, EspaceImage14, EspaceImage15
         ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API'
     },
     {
         title: 'Ridley Valley Tutorial',
@@ -499,24 +528,7 @@ export const ProjectsData = [
            OnfitImage1, OnfitImage2, OnfitImage3, OnfitImage4, OnfitImage5, OnfitImage6, OnfitImage7, OnfitImage8, OnfitImage9,
            OnfitImage10, OnfitImage11, OnfitImage12, OnfitImage13, OnfitImage14, OnfitImage15
         ],
-        technologies: 'ReactJs, Python, Flask, MongoDB, REST APIs'
-    },
-    {
-        title: 'Farmer Management App',
-        category: 'Mobile App',
-        description: `
-            A React Native mobile application designed for efficient farmer data collection and management. The app supports two user roles: Clerks, who input farmer details (name, national ID, farm type, crop, and location), and Admins, who configure form options. Built with offline functionality, it stores data locally in SQLite and syncs with a Flask-based backend using MongoDB when an internet connection is available. Secure authentication ensures role-based access, and the system provides a seamless user experience for agricultural data management.
-        `,
-        main_url: 'https://github.com/micpana/Eport-Farmer-Management-App',
-        backup_url: '#',
-        images: [
-            // FarmerManagementApp1, 
-            FarmerManagementApp2, FarmerManagementApp3, FarmerManagementApp4, FarmerManagementApp5, FarmerManagementApp6,
-            FarmerManagementApp7, FarmerManagementApp8, FarmerManagementApp9, FarmerManagementApp10, FarmerManagementApp11, FarmerManagementApp12,
-            FarmerManagementApp13, FarmerManagementApp14, FarmerManagementApp15, FarmerManagementApp16, FarmerManagementApp17, FarmerManagementApp18,
-            FarmerManagementApp19, FarmerManagementApp20
-        ],
-        technologies: 'React Native, Python, Flask, MongoDB, SQLite, REST APIs'
+        technologies: 'ReactJs, Python, Flask, MongoDB, RESTful API, Stripe'
     },
     {
         title: 'MyuzikHeadz',
@@ -530,6 +542,24 @@ export const ProjectsData = [
             MyuzikHeadz1, MyuzikHeadz2, MyuzikHeadz3, MyuzikHeadz4, MyuzikHeadz5, MyuzikHeadz6, MyuzikHeadz7, MyuzikHeadz8, MyuzikHeadz9,
             MyuzikHeadz10, MyuzikHeadz11, MyuzikHeadz12, MyuzikHeadz13
         ],
-        technologies: 'ReactJS, Python, Flask, MongoDB, REST APIs'
+        technologies: 'ReactJS, Python, Flask, MongoDB, RESTful API'
+    },
+    {
+        title: 'Bossalf International',
+        category: 'Website',
+        description: `
+            A furniture manufacturing platform that seamlessly blends style and functionality to create inspiring learning environments. Specializing in ergonomic and durable designs, Bossalf International provides high-quality furniture solutions for schools, universities, churches, and conferences. From polyshell chairs to versatile student desks, every piece is crafted with precision to enhance focus, collaboration, and creativity.
+
+            With a commitment to superior materials and customizable aesthetics, Bossalf International transforms spaces into hubs of productivity and inspiration.
+        `,
+        main_url: 'https://bossalfinternational.co.zw/',
+        backup_url: 'https://bossalfinternational.netlify.app/',
+        images: [
+            BossalfInternationalImage1, BossalfInternationalImage2, BossalfInternationalImage3, BossalfInternationalImage4, 
+            BossalfInternationalImage5, BossalfInternationalImage6, BossalfInternationalImage7, BossalfInternationalImage8,
+            BossalfInternationalImage9, BossalfInternationalImage10, BossalfInternationalImage11, BossalfInternationalImage12,
+            BossalfInternationalImage13
+        ],
+        technologies: 'ReactJs'
     },
 ]
